@@ -1,0 +1,1577 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NitroGym Reus</title>
+<meta name="description" content="NitroGym Reus: el gimnasio más grande de Reus. Más de 5.000 m² en Horts de Miró con cardio, peso libre, cross training, Hyrox, +30 clases dirigidas, ludoteca y parking gratuito. Inauguración 1 de octubre de 2026. Calle Cels Gomis i Mestres, 9-11.">
+<meta name="keywords" content="gimnasio Reus, NitroGym, gym Reus, cross training Reus, Hyrox Reus, clases dirigidas Reus, gimnasio Horts de Miró, fitness Tarragona">
+<meta name="robots" content="index, follow">
+<meta name="geo.region" content="ES-T">
+<meta name="geo.placename" content="Reus, Tarragona">
+<meta name="geo.position" content="41.1499;1.0958">
+<meta name="ICBM" content="41.1499, 1.0958">
+<meta property="og:type" content="website">
+<meta property="og:title" content="NitroGym Reus — 5.000 m² de puro entrenamiento">
+<meta property="og:description" content="El gimnasio más grande de Reus abre el 1 de octubre. Cross training, Hyrox, +30 clases, ludoteca y parking gratis. Calle Cels Gomis i Mestres, 9-11.">
+<meta property="og:locale" content="es_ES">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Barlow:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Barlow+Condensed:wght@500;600;700&display=swap">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ExerciseGym",
+  "name": "NitroGym Reus",
+  "description": "Gimnasio de más de 5.000 m² en Reus: cardio, peso libre, cross training, Hyrox, más de 30 clases dirigidas, ludoteca infantil y parking gratuito. Abierto 365 días al año.",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Carrer de Cels Gomis i Mestres, 9-11",
+    "addressLocality": "Reus",
+    "addressRegion": "Tarragona",
+    "postalCode": "43204",
+    "addressCountry": "ES"
+  },
+  "geo": { "@type": "GeoCoordinates", "latitude": 41.1499, "longitude": 1.0958 },
+  "openingHoursSpecification": {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
+    "opens": "07:00", "closes": "23:00"
+  },
+  "amenityFeature": [
+    { "@type": "LocationFeatureSpecification", "name": "Parking gratuito", "value": true },
+    { "@type": "LocationFeatureSpecification", "name": "Ludoteca infantil", "value": true },
+    { "@type": "LocationFeatureSpecification", "name": "Zona Hyrox", "value": true }
+  ],
+  "foundingDate": "2026-10-01",
+  "areaServed": "Reus, Tarragona",
+  "sameAs": [
+    "https://www.instagram.com/nitrogym_reus/",
+    "https://www.tiktok.com/@nitrogym_reus",
+    "https://www.instagram.com/nitrofitnessclub/",
+    "https://www.instagram.com/nitrosuplementacion_reus/",
+    "https://nitrosuplementacion.com/"
+  ],
+  "priceRange": "€€"
+}
+</script>
+<style>
+:root{
+  --carbon:#0a0c10;
+  --humo:#141821;
+  --panel:#1a2030;
+  --linea:#242c3e;
+  --texto:#eef0f4;
+  --texto2:#98a2b8;
+  --nitro:#2e6bff;
+  --nitro2:#6be0ff;
+  --flama:linear-gradient(100deg,#2e6bff 0%,#4f8dff 45%,#6be0ff 100%);
+  --display:'Anton',Impact,'Arial Narrow Bold',sans-serif;
+  --cuerpo:'Barlow',system-ui,Segoe UI,sans-serif;
+  --cond:'Barlow Condensed','Arial Narrow',sans-serif;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  background:var(--carbon);
+  color:var(--texto);
+  font-family:var(--cuerpo);
+  font-size:17px;line-height:1.6;
+  overflow-x:hidden;
+}
+::selection{background:var(--nitro);color:#fff}
+img{max-width:100%}
+a{color:inherit}
+h1,h2,h3{text-wrap:balance}
+
+/* ---------- utilidades ---------- */
+.wrap{max-width:1200px;margin:0 auto;padding:0 24px}
+.eyebrow{
+  font-family:var(--cond);font-weight:600;font-size:.95rem;
+  letter-spacing:.22em;text-transform:uppercase;color:var(--nitro2);
+  display:flex;align-items:center;gap:12px;margin-bottom:14px;
+}
+.eyebrow::before{content:"";width:34px;height:2px;background:var(--flama)}
+.titulo{
+  font-family:var(--display);font-size:clamp(2.2rem,5vw,3.6rem);
+  line-height:1.04;text-transform:uppercase;letter-spacing:.01em;font-weight:400;
+}
+.titulo em{font-style:normal;background:var(--flama);-webkit-background-clip:text;background-clip:text;color:transparent}
+.sub{color:var(--texto2);max-width:62ch;margin-top:16px}
+section{padding:110px 0;position:relative}
+.btn{
+  display:inline-flex;align-items:center;gap:10px;
+  font-family:var(--cond);font-weight:700;font-size:1.05rem;
+  letter-spacing:.12em;text-transform:uppercase;
+  padding:15px 30px;border:none;cursor:pointer;text-decoration:none;
+  clip-path:polygon(10px 0,100% 0,100% calc(100% - 10px),calc(100% - 10px) 100%,0 100%,0 10px);
+  transition:transform .25s cubic-bezier(.2,.7,.2,1),filter .25s,letter-spacing .25s;
+  position:relative;overflow:hidden;
+}
+.btn:hover{transform:translateY(-3px) scale(1.03);filter:brightness(1.15);letter-spacing:.16em}
+.btn:active{transform:translateY(0) scale(.98)}
+.btn::after{
+  content:"";position:absolute;top:-10%;bottom:-10%;left:-80%;width:45%;
+  background:linear-gradient(105deg,transparent,rgba(255,255,255,.5),transparent);
+  transform:skewX(-20deg);transition:left .55s ease;pointer-events:none;
+}
+.btn:hover::after{left:135%}
+.btn-nitro{background:var(--flama);color:#061020}
+.btn-linea{background:transparent;color:var(--texto);box-shadow:inset 0 0 0 2px var(--linea)}
+.btn-linea:hover{box-shadow:inset 0 0 0 2px var(--nitro);background:rgba(46,107,255,.12)}
+/* pulso automático del botón principal del hero */
+.btn-pulso::after{animation:barrido 3.2s ease 1.5s infinite}
+@keyframes barrido{0%{left:-80%}38%{left:135%}100%{left:135%}}
+/* onda al pulsar */
+.onda{
+  position:absolute;border-radius:50%;pointer-events:none;
+  background:radial-gradient(circle,rgba(255,255,255,.55) 0%,rgba(107,224,255,.25) 60%,transparent 70%);
+  transform:scale(0);animation:onda .65s ease-out forwards;
+}
+@keyframes onda{to{transform:scale(4);opacity:0}}
+.btn-mini:not(#btn-carro){position:relative;overflow:hidden}
+:focus-visible{outline:2px solid var(--nitro2);outline-offset:3px}
+
+/* aparición al hacer scroll */
+.reveal{opacity:0;transform:translateY(34px);transition:opacity .8s cubic-bezier(.2,.7,.2,1),transform .8s cubic-bezier(.2,.7,.2,1)}
+.reveal.vis{opacity:1;transform:none}
+.reveal.d1{transition-delay:.1s}.reveal.d2{transition-delay:.2s}.reveal.d3{transition-delay:.3s}
+
+/* ---------- barra superior ---------- */
+header{
+  position:fixed;top:0;left:0;right:0;z-index:60;
+  transition:background .3s,box-shadow .3s;
+}
+header.solida{background:rgba(10,12,16,.92);backdrop-filter:blur(12px);box-shadow:0 1px 0 var(--linea)}
+.nav{display:flex;align-items:center;gap:28px;padding:16px 24px;max-width:1280px;margin:0 auto}
+.logo{font-family:var(--display);font-size:1.5rem;text-transform:uppercase;text-decoration:none;letter-spacing:.02em;display:flex;align-items:center;gap:8px}
+.logo b{background:var(--flama);-webkit-background-clip:text;background-clip:text;color:transparent;font-weight:400}
+.logo svg{width:26px;height:26px}
+.nav-links{display:flex;gap:24px;margin-left:auto;list-style:none}
+.nav-links a{
+  text-decoration:none;font-family:var(--cond);font-weight:600;
+  letter-spacing:.14em;text-transform:uppercase;font-size:.9rem;color:var(--texto2);
+  transition:color .2s;
+}
+.nav-links a:hover{color:var(--texto)}
+.nav-acciones{display:flex;gap:12px;align-items:center}
+.btn-mini{
+  font-family:var(--cond);font-weight:700;letter-spacing:.1em;text-transform:uppercase;
+  font-size:.85rem;padding:9px 16px;cursor:pointer;border:none;
+  clip-path:polygon(6px 0,100% 0,100% calc(100% - 6px),calc(100% - 6px) 100%,0 100%,0 6px);
+}
+.btn-cuenta{background:transparent;color:var(--texto);box-shadow:inset 0 0 0 2px var(--linea)}
+.btn-cuenta:hover{box-shadow:inset 0 0 0 2px var(--nitro)}
+.btn-carro{background:var(--flama);color:#061020;position:relative}
+.badge-carro{
+  position:absolute;top:-8px;right:-8px;background:#fff;color:#061020;
+  font-family:var(--cuerpo);font-size:.72rem;font-weight:700;
+  min-width:20px;height:20px;border-radius:999px;display:none;
+  align-items:center;justify-content:center;padding:0 5px;
+}
+.badge-carro.on{display:inline-flex}
+#abrir-menu{display:none;background:none;border:none;color:var(--texto);cursor:pointer;padding:6px}
+@media(max-width:920px){
+  .nav-links{
+    display:none;position:fixed;inset:64px 0 auto 0;background:rgba(10,12,16,.98);
+    flex-direction:column;padding:24px;gap:18px;border-bottom:1px solid var(--linea);
+  }
+  .nav-links.abierto{display:flex}
+  #abrir-menu{display:block}
+}
+
+/* ---------- hero ---------- */
+.hero{
+  min-height:100svh;display:flex;flex-direction:column;justify-content:center;
+  position:relative;overflow:hidden;padding:140px 0 80px;
+}
+.capa{position:absolute;inset:-12% 0;pointer-events:none;will-change:transform}
+.capa-video{inset:-6%;overflow:hidden}
+.capa-video video{
+  width:100%;height:100%;object-fit:cover;opacity:0;transition:opacity 1.4s ease;
+  filter:saturate(.8) contrast(1.08) brightness(.62);
+}
+.capa-video video.listo{opacity:1}
+.capa-video .velocidad{
+  position:absolute;top:0;bottom:0;left:-100%;width:300%;pointer-events:none;
+  background:repeating-linear-gradient(100deg,
+    transparent 0 140px,rgba(107,224,255,.07) 140px 143px,
+    transparent 143px 300px,rgba(46,107,255,.09) 300px 304px,transparent 304px 420px);
+  mix-blend-mode:screen;animation:correr 3.2s linear infinite;
+}
+@keyframes correr{to{transform:translateX(420px)}}
+.capa-video::after{
+  content:"";position:absolute;inset:0;
+  background:
+    linear-gradient(180deg,rgba(10,12,16,.78) 0%,rgba(10,12,16,.45) 45%,#0a0c10 97%),
+    radial-gradient(70% 60% at 70% 30%,rgba(46,107,255,.22),transparent 70%);
+}
+.capa-glow{
+  background:
+    radial-gradient(58% 42% at 72% 30%,rgba(46,107,255,.32),transparent 65%),
+    radial-gradient(40% 34% at 18% 78%,rgba(107,224,255,.14),transparent 70%);
+}
+.capa-rejilla{
+  background-image:linear-gradient(var(--linea) 1px,transparent 1px),linear-gradient(90deg,var(--linea) 1px,transparent 1px);
+  background-size:64px 64px;opacity:.25;
+  mask-image:radial-gradient(70% 60% at 50% 40%,#000 30%,transparent 100%);
+  -webkit-mask-image:radial-gradient(70% 60% at 50% 40%,#000 30%,transparent 100%);
+}
+.capa-palabra{
+  display:flex;align-items:center;justify-content:center;
+  font-family:var(--display);font-size:clamp(7rem,24vw,22rem);
+  text-transform:uppercase;color:transparent;
+  -webkit-text-stroke:1px rgba(152,162,184,.16);
+  white-space:nowrap;user-select:none;
+}
+.hero-int{position:relative;z-index:2}
+.hero-tag{
+  display:inline-flex;align-items:center;gap:10px;
+  font-family:var(--cond);font-weight:600;font-size:.95rem;letter-spacing:.2em;text-transform:uppercase;
+  color:var(--nitro2);border:1px solid rgba(107,224,255,.35);padding:8px 16px;margin-bottom:26px;
+  clip-path:polygon(8px 0,100% 0,100% calc(100% - 8px),calc(100% - 8px) 100%,0 100%,0 8px);
+}
+.hero-tag .punto{width:8px;height:8px;border-radius:50%;background:var(--nitro2);animation:late 1.6s infinite}
+@keyframes late{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.35;transform:scale(.7)}}
+.hero h1{
+  font-family:var(--display);font-weight:400;
+  font-size:clamp(2.5rem,6.5vw,5.2rem);line-height:.98;text-transform:uppercase;
+  text-shadow:0 4px 30px rgba(6,10,18,.8);
+}
+.hero h1 .l1,.hero h1 .l2,.hero h1 .l3{display:block;opacity:0;transform:translateY(50px);animation:sube .9s cubic-bezier(.2,.7,.2,1) forwards}
+.hero h1 .l2{animation-delay:.15s}
+.hero h1 .l3{animation-delay:.3s;background:var(--flama);-webkit-background-clip:text;background-clip:text;color:transparent}
+@keyframes sube{to{opacity:1;transform:none}}
+.hero-sub{color:var(--texto2);max-width:56ch;margin:24px 0 34px;font-size:1.1rem;opacity:0;animation:sube .9s .5s cubic-bezier(.2,.7,.2,1) forwards}
+.hero-cta{display:flex;gap:16px;flex-wrap:wrap;opacity:0;animation:sube .9s .65s cubic-bezier(.2,.7,.2,1) forwards}
+
+/* cuenta atrás */
+.cuenta{
+  display:flex;gap:14px;margin-top:52px;flex-wrap:wrap;
+  opacity:0;animation:sube .9s .8s cubic-bezier(.2,.7,.2,1) forwards;
+}
+.cuenta-caja{
+  background:rgba(20,24,33,.75);border:1px solid var(--linea);
+  padding:16px 22px;min-width:104px;text-align:center;backdrop-filter:blur(6px);
+  clip-path:polygon(10px 0,100% 0,100% calc(100% - 10px),calc(100% - 10px) 100%,0 100%,0 10px);
+}
+.cuenta-caja b{
+  display:block;font-family:var(--display);font-weight:400;
+  font-size:2.6rem;line-height:1;font-variant-numeric:tabular-nums;
+  background:var(--flama);-webkit-background-clip:text;background-clip:text;color:transparent;
+}
+.cuenta-caja span{font-family:var(--cond);font-size:.85rem;letter-spacing:.18em;text-transform:uppercase;color:var(--texto2)}
+@media(max-width:600px){
+  .hero{padding:120px 0 60px}
+  .cuenta{gap:8px;margin-top:40px}
+  .cuenta-caja{min-width:0;flex:1;padding:12px 8px}
+  .cuenta-caja b{font-size:1.8rem}
+  .cuenta-caja span{font-size:.72rem;letter-spacing:.12em}
+  .hero-cta{width:100%}
+  .hero-cta .btn{flex:1;justify-content:center;padding:14px 18px}
+  section{padding:80px 0}
+}
+
+/* cinta en movimiento */
+.cinta{
+  border-top:1px solid var(--linea);border-bottom:1px solid var(--linea);
+  background:var(--humo);overflow:hidden;padding:16px 0;position:relative;z-index:3;
+}
+.cinta-fila{display:flex;gap:48px;white-space:nowrap;animation:cinta 28s linear infinite;width:max-content}
+.cinta-fila span{
+  font-family:var(--cond);font-weight:700;letter-spacing:.22em;text-transform:uppercase;
+  font-size:1rem;color:var(--texto2);display:flex;align-items:center;gap:48px;
+}
+.cinta-fila span::after{content:"◆";color:var(--nitro);font-size:.7rem}
+@keyframes cinta{to{transform:translateX(-50%)}}
+
+/* ---------- cifras ---------- */
+.cifras{background:var(--humo)}
+.cifras-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:1px;background:var(--linea);border:1px solid var(--linea)}
+.cifra{background:var(--humo);padding:44px 32px;transition:background .3s}
+.cifra:hover{background:var(--panel)}
+.cifra b{
+  display:block;font-family:var(--display);font-weight:400;font-size:3.4rem;line-height:1;
+  font-variant-numeric:tabular-nums;margin-bottom:8px;
+}
+.cifra small{font-family:var(--cond);font-size:.95rem;letter-spacing:.16em;text-transform:uppercase;color:var(--texto2)}
+
+/* ---------- zonas ---------- */
+.zonas-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:22px;margin-top:56px}
+.zona{
+  position:relative;border:1px solid var(--linea);background:var(--humo);
+  padding:36px 30px;overflow:hidden;transition:transform .35s,border-color .35s;
+}
+.zona::before{
+  content:"";position:absolute;inset:0;background:var(--flama);
+  opacity:0;transition:opacity .35s;mix-blend-mode:overlay;
+}
+.zona:hover{transform:translateY(-6px);border-color:var(--nitro)}
+.zona:hover::before{opacity:.18}
+.zona-num{
+  position:absolute;top:-18px;right:6px;font-family:var(--display);
+  font-size:6rem;color:transparent;-webkit-text-stroke:1px var(--linea);user-select:none;
+}
+.zona svg{width:44px;height:44px;stroke:url(#gradNitro);margin-bottom:20px}
+.zona h3{font-family:var(--cond);font-weight:700;font-size:1.35rem;letter-spacing:.06em;text-transform:uppercase;margin-bottom:10px}
+.zona p{color:var(--texto2);font-size:.98rem}
+
+/* franja parallax */
+.franja{
+  min-height:420px;display:flex;align-items:center;overflow:hidden;position:relative;
+  border-top:1px solid var(--linea);border-bottom:1px solid var(--linea);
+}
+.franja{background:var(--humo)}
+.franja-palabra{font-size:clamp(4.5rem,17vw,12rem)}
+.franja blockquote{
+  position:relative;z-index:2;font-family:var(--display);font-weight:400;
+  font-size:clamp(1.9rem,4.6vw,3.4rem);line-height:1.12;text-transform:uppercase;max-width:20ch;
+}
+.franja cite{
+  display:block;margin-top:20px;font-family:var(--cond);font-style:normal;
+  font-size:1rem;letter-spacing:.18em;text-transform:uppercase;color:var(--nitro2);
+}
+
+/* ---------- clases ---------- */
+.dias{display:flex;gap:10px;flex-wrap:wrap;margin:44px 0 26px}
+.dia-btn{
+  font-family:var(--cond);font-weight:600;letter-spacing:.12em;text-transform:uppercase;
+  font-size:.95rem;padding:10px 20px;background:var(--humo);color:var(--texto2);
+  border:1px solid var(--linea);cursor:pointer;transition:all .2s;
+  clip-path:polygon(7px 0,100% 0,100% calc(100% - 7px),calc(100% - 7px) 100%,0 100%,0 7px);
+}
+.dia-btn:hover{color:var(--texto)}
+.dia-btn.activo{background:var(--flama);color:#061020;border-color:transparent;font-weight:700}
+.clases-lista{display:grid;gap:12px}
+.clase{
+  display:grid;grid-template-columns:110px 1fr auto auto;gap:20px;align-items:center;
+  background:var(--humo);border:1px solid var(--linea);padding:18px 24px;
+  transition:border-color .25s,transform .25s;
+}
+.clase:hover{border-color:var(--nitro);transform:translateX(6px)}
+.clase-hora{font-family:var(--display);font-size:1.5rem;font-variant-numeric:tabular-nums;background:var(--flama);-webkit-background-clip:text;background-clip:text;color:transparent}
+.clase-nombre{font-family:var(--cond);font-weight:700;font-size:1.2rem;letter-spacing:.05em;text-transform:uppercase}
+.clase-info{color:var(--texto2);font-size:.9rem}
+.clase-plazas{font-family:var(--cond);font-size:.9rem;letter-spacing:.08em;color:var(--texto2);text-transform:uppercase}
+.clase-plazas b{color:var(--nitro2)}
+@media(max-width:700px){
+  .clase{grid-template-columns:1fr auto}
+  .clase-hora{grid-column:1}.clase-plazas{display:none}
+}
+
+/* ---------- tienda ---------- */
+.tienda{background:var(--humo)}
+.filtros{display:flex;gap:10px;flex-wrap:wrap;margin:40px 0 30px}
+.prod-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:22px}
+.prod{
+  background:var(--carbon);border:1px solid var(--linea);display:flex;flex-direction:column;
+  transition:transform .3s,border-color .3s;overflow:hidden;
+}
+.prod:hover{transform:translateY(-6px);border-color:var(--nitro)}
+.prod-img{
+  height:190px;display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden;
+  background:radial-gradient(60% 80% at 50% 100%,rgba(46,107,255,.22),transparent 70%),var(--panel);
+}
+.prod-img svg{width:88px;height:88px;stroke:url(#gradNitro);transition:transform .35s}
+.prod:hover .prod-img svg{transform:scale(1.12) rotate(-3deg)}
+.prod-etq{
+  position:absolute;top:12px;left:12px;font-family:var(--cond);font-weight:700;
+  font-size:.75rem;letter-spacing:.14em;text-transform:uppercase;
+  background:var(--flama);color:#061020;padding:4px 10px;
+}
+.prod-cuerpo{padding:20px;display:flex;flex-direction:column;gap:8px;flex:1}
+.prod-cat{font-family:var(--cond);font-size:.8rem;letter-spacing:.16em;text-transform:uppercase;color:var(--nitro2)}
+.prod h3{font-family:var(--cond);font-weight:700;font-size:1.15rem;letter-spacing:.04em;text-transform:uppercase}
+.prod p{color:var(--texto2);font-size:.9rem;flex:1}
+.prod-pie{display:flex;align-items:center;justify-content:space-between;margin-top:10px}
+.prod-precio{font-family:var(--display);font-size:1.5rem;font-variant-numeric:tabular-nums}
+.prod-precio small{font-size:.9rem;color:var(--texto2);font-family:var(--cuerpo);text-decoration:line-through;margin-right:8px}
+
+/* carrito lateral */
+.panel-lateral{
+  position:fixed;top:0;right:0;bottom:0;width:min(420px,100vw);z-index:80;
+  background:var(--humo);border-left:1px solid var(--linea);
+  transform:translateX(102%);transition:transform .4s cubic-bezier(.2,.7,.2,1);
+  display:flex;flex-direction:column;
+}
+.panel-lateral.abierto{transform:none}
+.panel-cab{display:flex;align-items:center;justify-content:space-between;padding:22px 24px;border-bottom:1px solid var(--linea)}
+.panel-cab h3{font-family:var(--cond);font-weight:700;font-size:1.3rem;letter-spacing:.08em;text-transform:uppercase}
+.cerrar-x{background:none;border:none;color:var(--texto2);cursor:pointer;font-size:1.5rem;line-height:1;padding:4px}
+.cerrar-x:hover{color:var(--texto)}
+.panel-cuerpo{flex:1;overflow-y:auto;padding:20px 24px;display:flex;flex-direction:column;gap:14px}
+.carro-item{display:grid;grid-template-columns:auto 1fr auto;gap:14px;align-items:center;border:1px solid var(--linea);padding:12px 14px;background:var(--carbon)}
+.carro-item svg{width:38px;height:38px;stroke:url(#gradNitro)}
+.carro-item h4{font-family:var(--cond);font-size:1rem;letter-spacing:.04em;text-transform:uppercase}
+.carro-item .cant{display:flex;align-items:center;gap:10px;margin-top:6px}
+.cant button{width:24px;height:24px;background:var(--panel);border:1px solid var(--linea);color:var(--texto);cursor:pointer;font-weight:700}
+.cant button:hover{border-color:var(--nitro)}
+.carro-precio{font-family:var(--display);font-size:1.1rem;font-variant-numeric:tabular-nums}
+.carro-vacio{color:var(--texto2);text-align:center;margin-top:40px}
+.panel-pie{border-top:1px solid var(--linea);padding:20px 24px;display:grid;gap:14px}
+.carro-total{display:flex;justify-content:space-between;font-family:var(--cond);font-weight:700;font-size:1.2rem;letter-spacing:.06em;text-transform:uppercase}
+.carro-total b{font-family:var(--display);font-variant-numeric:tabular-nums;background:var(--flama);-webkit-background-clip:text;background-clip:text;color:transparent}
+.velo{position:fixed;inset:0;background:rgba(6,8,12,.6);backdrop-filter:blur(3px);z-index:70;opacity:0;pointer-events:none;transition:opacity .3s}
+.velo.on{opacity:1;pointer-events:auto}
+
+/* ---------- tarifas ---------- */
+.tarifas-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(270px,1fr));gap:22px;margin-top:56px}
+.tarifa{
+  border:1px solid var(--linea);background:var(--humo);padding:38px 32px;position:relative;
+  display:flex;flex-direction:column;gap:18px;transition:transform .3s,border-color .3s;
+}
+.tarifa:hover{transform:translateY(-6px);border-color:var(--nitro)}
+.tarifa.destacada{border-color:var(--nitro);background:linear-gradient(180deg,rgba(46,107,255,.1),transparent 60%),var(--humo)}
+.tarifa-etq{
+  position:absolute;top:-13px;left:32px;background:var(--flama);color:#061020;
+  font-family:var(--cond);font-weight:700;font-size:.8rem;letter-spacing:.16em;text-transform:uppercase;padding:5px 14px;
+}
+.tarifa h3{font-family:var(--cond);font-weight:700;font-size:1.3rem;letter-spacing:.08em;text-transform:uppercase}
+.tarifa-precio{font-family:var(--display);font-size:3.2rem;line-height:1;font-variant-numeric:tabular-nums}
+.tarifa-precio small{font-family:var(--cond);font-size:1rem;color:var(--texto2);letter-spacing:.08em}
+.tarifa ul{list-style:none;display:grid;gap:10px;flex:1}
+.tarifa li{padding-left:26px;position:relative;color:var(--texto2);font-size:.95rem}
+.tarifa li::before{content:"◆";position:absolute;left:0;color:var(--nitro2);font-size:.7rem;top:5px}
+
+/* ---------- cómo llegar ---------- */
+.llegar-grid{display:grid;grid-template-columns:1fr 1fr;gap:40px;margin-top:56px;align-items:stretch}
+@media(max-width:880px){.llegar-grid{grid-template-columns:1fr}}
+.mapa{
+  border:1px solid var(--linea);background:var(--panel);position:relative;overflow:hidden;min-height:420px;
+}
+.mapa svg{position:absolute;inset:0;width:100%;height:100%}
+.mapa-pin{
+  position:absolute;left:56%;top:44%;transform:translate(-50%,-100%);text-align:center;z-index:2;
+}
+.mapa-pin .gota{
+  width:34px;height:34px;margin:0 auto;background:var(--flama);
+  border-radius:50% 50% 50% 0;transform:rotate(-45deg);
+  display:flex;align-items:center;justify-content:center;
+  animation:bote 1.8s ease-in-out infinite;box-shadow:0 8px 24px rgba(46,107,255,.55);
+}
+.mapa-pin .gota::after{content:"";width:12px;height:12px;background:#061020;border-radius:50%}
+@keyframes bote{0%,100%{transform:rotate(-45deg) translate(0,0)}50%{transform:rotate(-45deg) translate(-5px,5px)}}
+.mapa-pin span{
+  display:inline-block;margin-top:10px;background:var(--carbon);border:1px solid var(--linea);
+  font-family:var(--cond);font-weight:700;font-size:.85rem;letter-spacing:.1em;text-transform:uppercase;padding:6px 12px;
+}
+.llegar-info{display:flex;flex-direction:column;gap:22px}
+.llegar-item{display:grid;grid-template-columns:auto 1fr;gap:18px;border:1px solid var(--linea);background:var(--humo);padding:20px 22px}
+.llegar-item svg{width:34px;height:34px;stroke:url(#gradNitro)}
+.llegar-item h3{font-family:var(--cond);font-weight:700;font-size:1.1rem;letter-spacing:.06em;text-transform:uppercase;margin-bottom:4px}
+.llegar-item p{color:var(--texto2);font-size:.95rem}
+
+/* ---------- registro / newsletter ---------- */
+.registro{
+  background:
+    radial-gradient(60% 90% at 50% 0%,rgba(46,107,255,.22),transparent 65%),var(--humo);
+  border-top:1px solid var(--linea);text-align:center;
+}
+.registro .titulo{font-size:clamp(2.4rem,6vw,4.4rem)}
+.form-linea{display:flex;gap:12px;max-width:520px;margin:36px auto 0;flex-wrap:wrap;justify-content:center}
+.form-linea input{
+  flex:1;min-width:240px;background:var(--carbon);border:1px solid var(--linea);color:var(--texto);
+  font-family:var(--cuerpo);font-size:1rem;padding:15px 18px;
+}
+.form-linea input:focus{outline:none;border-color:var(--nitro)}
+
+/* ---------- pie ---------- */
+footer{border-top:1px solid var(--linea);padding:60px 0 40px;background:var(--carbon)}
+.pie-grid{display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:40px}
+@media(max-width:880px){.pie-grid{grid-template-columns:1fr 1fr}}
+@media(max-width:560px){.pie-grid{grid-template-columns:1fr}}
+.pie-grid h4{font-family:var(--cond);font-weight:700;font-size:1rem;letter-spacing:.14em;text-transform:uppercase;margin-bottom:16px;color:var(--nitro2)}
+.pie-grid ul{list-style:none;display:grid;gap:10px}
+.pie-grid a{color:var(--texto2);text-decoration:none;font-size:.95rem}
+.pie-grid a:hover{color:var(--texto)}
+.pie-grid p{color:var(--texto2);font-size:.95rem;max-width:34ch}
+.pie-legal{
+  margin-top:48px;padding-top:24px;border-top:1px solid var(--linea);
+  display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;
+  color:var(--texto2);font-size:.85rem;
+}
+
+/* ---------- modales ---------- */
+.modal{
+  position:fixed;inset:0;z-index:90;display:none;align-items:center;justify-content:center;padding:20px;
+}
+.modal.on{display:flex}
+.modal-caja{
+  position:relative;z-index:2;background:var(--humo);border:1px solid var(--linea);
+  width:min(440px,100%);padding:36px;animation:modalIn .35s cubic-bezier(.2,.7,.2,1);
+  max-height:90vh;overflow-y:auto;
+}
+@keyframes modalIn{from{opacity:0;transform:translateY(26px) scale(.97)}to{opacity:1;transform:none}}
+.modal-caja h3{font-family:var(--cond);font-weight:700;font-size:1.5rem;letter-spacing:.06em;text-transform:uppercase;margin-bottom:6px}
+.modal-caja .nota{color:var(--texto2);font-size:.95rem;margin-bottom:22px}
+.modal-caja form{display:grid;gap:14px}
+.modal-caja input{
+  background:var(--carbon);border:1px solid var(--linea);color:var(--texto);
+  font-family:var(--cuerpo);font-size:1rem;padding:13px 16px;width:100%;
+}
+.modal-caja input:focus{outline:none;border-color:var(--nitro)}
+.modal-cerrar{position:absolute;top:14px;right:16px}
+.modal-alt{text-align:center;color:var(--texto2);font-size:.9rem;margin-top:16px}
+.modal-alt button{background:none;border:none;color:var(--nitro2);cursor:pointer;font-size:.9rem;text-decoration:underline}
+.mis-reservas{display:grid;gap:10px;margin-top:10px}
+.mis-reservas .clase{grid-template-columns:90px 1fr auto;padding:12px 16px}
+
+/* aviso flotante */
+.toast{
+  position:fixed;bottom:26px;left:50%;transform:translate(-50%,120px);z-index:100;
+  background:var(--flama);color:#061020;font-family:var(--cond);font-weight:700;
+  letter-spacing:.08em;text-transform:uppercase;font-size:.95rem;
+  padding:14px 26px;transition:transform .4s cubic-bezier(.2,.7,.2,1);
+  clip-path:polygon(8px 0,100% 0,100% calc(100% - 8px),calc(100% - 8px) 100%,0 100%,0 8px);
+}
+.toast.on{transform:translate(-50%,0)}
+
+/* ---------- redes sociales ---------- */
+.redes-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:22px;margin-top:56px}
+.red-card{
+  display:flex;flex-direction:column;gap:14px;background:var(--humo);border:1px solid var(--linea);
+  padding:30px 26px;text-decoration:none;position:relative;overflow:hidden;
+  transition:transform .3s,border-color .3s;
+}
+.red-card::before{content:"";position:absolute;inset:0;background:var(--flama);opacity:0;transition:opacity .3s;mix-blend-mode:overlay}
+.red-card:hover{transform:translateY(-6px);border-color:var(--nitro)}
+.red-card:hover::before{opacity:.2}
+.red-card svg{width:38px;height:38px;stroke:url(#gradNitro)}
+.red-card h3{font-family:var(--cond);font-weight:700;font-size:1.15rem;letter-spacing:.05em;text-transform:uppercase}
+.red-card .arroba{color:var(--nitro2);font-family:var(--cond);letter-spacing:.06em;font-size:1.05rem}
+.red-card p{color:var(--texto2);font-size:.92rem}
+.red-video{
+  margin-top:22px;display:flex;align-items:center;gap:18px;justify-content:space-between;flex-wrap:wrap;
+  border:1px solid var(--linea);padding:22px 26px;
+  background:linear-gradient(90deg,rgba(46,107,255,.16),transparent 60%),var(--humo);
+}
+.red-video p{color:var(--texto2)}
+.red-video b{color:var(--texto)}
+.pie-redes{display:flex;gap:12px;margin-top:18px}
+.pie-redes a{
+  display:inline-flex;width:42px;height:42px;align-items:center;justify-content:center;
+  border:1px solid var(--linea);transition:border-color .25s,transform .25s;
+  clip-path:polygon(8px 0,100% 0,100% calc(100% - 8px),calc(100% - 8px) 100%,0 100%,0 8px);
+}
+.pie-redes a:hover{border-color:var(--nitro);transform:translateY(-3px)}
+.pie-redes svg{width:20px;height:20px;stroke:url(#gradNitro)}
+
+/* ---------- aviso de cookies ---------- */
+.cookies{
+  position:fixed;left:16px;right:16px;bottom:16px;z-index:110;
+  background:var(--humo);border:1px solid var(--linea);padding:22px 24px;
+  display:flex;flex-direction:column;gap:14px;align-items:flex-start;
+  box-shadow:0 12px 40px rgba(4,6,10,.65);
+  transform:translateY(130%);visibility:hidden;
+  transition:transform .55s cubic-bezier(.2,.7,.2,1),visibility .55s;
+}
+.cookies.on{transform:none;visibility:visible}
+.cookies h4{font-family:var(--cond);font-weight:700;font-size:1.05rem;letter-spacing:.1em;text-transform:uppercase;display:flex;align-items:center;gap:10px}
+.cookies h4 svg{width:20px;height:20px;stroke:url(#gradNitro)}
+.cookies p{color:var(--texto2);font-size:.9rem;max-width:60ch}
+.cookies p button{background:none;border:none;color:var(--nitro2);cursor:pointer;font-size:.9rem;text-decoration:underline;padding:0}
+.cookies-botones{display:flex;gap:10px;flex-wrap:wrap}
+@media(min-width:900px){.cookies{left:auto;max-width:480px}}
+
+/* ---------- páginas legales ---------- */
+.legal{position:fixed;inset:0;z-index:95;background:var(--carbon);display:none;overflow-y:auto}
+.legal.on{display:block}
+.legal-int{max-width:820px;margin:0 auto;padding:110px 24px 80px;animation:modalIn .35s cubic-bezier(.2,.7,.2,1)}
+.legal-int .eyebrow{margin-bottom:10px}
+.legal-int h2{font-family:var(--display);font-size:clamp(1.9rem,4vw,2.8rem);text-transform:uppercase;font-weight:400;margin-bottom:14px}
+.legal-int h3{font-family:var(--cond);font-weight:700;font-size:1.15rem;letter-spacing:.06em;text-transform:uppercase;margin:30px 0 10px;color:var(--nitro2)}
+.legal-int p,.legal-int li{color:var(--texto2);font-size:.97rem;margin-bottom:10px}
+.legal-int ul{padding-left:22px;margin-bottom:10px}
+.legal-int a{color:var(--nitro2)}
+.tabla-scroll{overflow-x:auto;margin:14px 0}
+.legal-int table{width:100%;border-collapse:collapse;font-size:.88rem;min-width:520px}
+.legal-int th,.legal-int td{border:1px solid var(--linea);padding:10px 12px;text-align:left;color:var(--texto2)}
+.legal-int th{color:var(--texto);font-family:var(--cond);letter-spacing:.08em;text-transform:uppercase;font-size:.85rem}
+.legal-cerrar{position:sticky;top:20px;float:right;margin-right:-40px;z-index:2}
+@media(max-width:920px){.legal-cerrar{margin-right:0}}
+
+@media(prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}
+  html{scroll-behavior:auto}
+  .reveal{opacity:1;transform:none}
+}
+</style>
+</head>
+<body>
+
+<!-- degradado reutilizable para iconos SVG -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <linearGradient id="gradNitro" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2e6bff"/><stop offset="1" stop-color="#6be0ff"/>
+    </linearGradient>
+  </defs>
+</svg>
+
+<header id="cabecera">
+  <nav class="nav" aria-label="principal">
+    <a class="logo" href="#inicio" aria-label="NitroGym, inicio">
+      <svg viewBox="0 0 24 24" fill="none" stroke="url(#gradNitro)" stroke-width="2.4" stroke-linecap="round"><path d="M13 2 4.5 13.5H11L9.5 22 20 9.5h-6.5L13 2z"/></svg>
+      NITRO<b>GYM</b>
+    </a>
+    <ul class="nav-links" id="menu">
+      <li><a href="#club">El club</a></li>
+      <li><a href="#clases">Clases</a></li>
+      <li><a href="#tienda">Tienda</a></li>
+      <li><a href="#tarifas">Tarifas</a></li>
+      <li><a href="#llegar">Cómo llegar</a></li>
+      <li><a href="#redes">Redes</a></li>
+    </ul>
+    <div class="nav-acciones">
+      <button class="btn-mini btn-cuenta" id="btn-cuenta">Acceder</button>
+      <button class="btn-mini btn-carro" id="btn-carro" aria-label="Abrir carrito">
+        Carrito <span class="badge-carro" id="badge-carro">0</span>
+      </button>
+      <button id="abrir-menu" aria-label="Abrir menú" aria-expanded="false">
+        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+      </button>
+    </div>
+  </nav>
+</header>
+
+<!-- ============ HERO ============ -->
+<section class="hero" id="inicio">
+  <div class="capa capa-video" data-parallax="0.15" data-raton="10">
+    <video id="video-hero" autoplay muted loop playsinline preload="metadata" aria-hidden="true">
+      <source src="video/hero.mp4" type="video/mp4">
+      <source data-src="https://assets.mixkit.co/videos/50967/50967-720.mp4" type="video/mp4">
+      <source data-src="https://assets.mixkit.co/videos/50965/50965-720.mp4" type="video/mp4">
+    </video>
+    <div class="velocidad" aria-hidden="true"></div>
+  </div>
+  <div class="capa capa-glow" data-parallax="0.25" data-raton="26"></div>
+  <div class="capa capa-rejilla" data-parallax="0.12" data-raton="14"></div>
+  <div class="capa capa-palabra" data-parallax="0.45" data-raton="42" aria-hidden="true">NITRO</div>
+  <div class="wrap hero-int" data-parallax="0" data-raton="-9">
+    <span class="hero-tag"><span class="punto"></span> Gran inauguración · 1 de octubre de 2026</span>
+    <h1>
+      <span class="l1">El gimnasio</span>
+      <span class="l2">más grande</span>
+      <span class="l3">de Reus</span>
+    </h1>
+    <p class="hero-sub">
+      Más de <strong>5.000 m²</strong> de entrenamiento en la antigua nave de Horts de Miró.
+      Cardio, peso libre, cross training, Hyrox, más de 30 clases dirigidas, ludoteca
+      infantil y parking gratuito. Abierto los 365 días del año.
+    </p>
+    <div class="hero-cta">
+      <a class="btn btn-nitro btn-pulso" href="#registro">Hazte socio fundador</a>
+      <a class="btn btn-linea" href="#club">Descubre el club</a>
+    </div>
+    <div class="cuenta" id="cuenta" aria-label="Cuenta atrás para la inauguración">
+      <div class="cuenta-caja"><b id="c-dias">--</b><span>días</span></div>
+      <div class="cuenta-caja"><b id="c-horas">--</b><span>horas</span></div>
+      <div class="cuenta-caja"><b id="c-min">--</b><span>minutos</span></div>
+      <div class="cuenta-caja"><b id="c-seg">--</b><span>segundos</span></div>
+    </div>
+  </div>
+</section>
+
+<div class="cinta" aria-hidden="true">
+  <div class="cinta-fila">
+    <span>Inauguración 01.10.2026</span><span>5.000 m²</span><span>Abierto 365 días</span>
+    <span>+30 clases dirigidas</span><span>Zona Hyrox</span><span>Ludoteca infantil</span>
+    <span>Parking gratuito</span><span>@nitrogym_reus</span><span>Calle Cels Gomis i Mestres, 9-11 · Reus</span>
+    <span>Inauguración 01.10.2026</span><span>5.000 m²</span><span>Abierto 365 días</span>
+    <span>+30 clases dirigidas</span><span>Zona Hyrox</span><span>Ludoteca infantil</span>
+    <span>Parking gratuito</span><span>@nitrogym_reus</span><span>Calle Cels Gomis i Mestres, 9-11 · Reus</span>
+  </div>
+</div>
+
+<!-- ============ CIFRAS ============ -->
+<section class="cifras" id="club">
+  <div class="wrap">
+    <p class="eyebrow reveal">El club</p>
+    <h2 class="titulo reveal">Una nave, <em>un templo</em></h2>
+    <p class="sub reveal">
+      La antigua nave del Mercadona de Horts de Miró se transforma en el mayor centro
+      de fitness y bienestar de Reus. Tercera marca de la familia Nitro, junto a
+      Nitro Fitness Club y Nitro Suplementación.
+    </p>
+    <div class="cifras-grid" style="margin-top:56px">
+      <div class="cifra reveal"><b data-contar="5000">0</b><small>metros cuadrados</small></div>
+      <div class="cifra reveal d1"><b data-contar="365">0</b><small>días abierto al año</small></div>
+      <div class="cifra reveal d2"><b data-contar="30">0</b><small>clases dirigidas +</small></div>
+      <div class="cifra reveal d3"><b data-contar="12">0</b><small>horas diarias +</small></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ ZONAS ============ -->
+<section>
+  <div class="wrap">
+    <p class="eyebrow reveal">Zonas de entrenamiento</p>
+    <h2 class="titulo reveal">Cada disciplina, <em>su territorio</em></h2>
+    <div class="zonas-grid">
+      <article class="zona reveal">
+        <span class="zona-num" aria-hidden="true">01</span>
+        <svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round"><path d="M6 7v10M18 7v10M3 9v6M21 9v6M6 12h12"/></svg>
+        <h3>Peso libre</h3>
+        <p>Cientos de metros de mancuernas, barras, discos y racks para entrenar fuerza sin esperas ni límites.</p>
+      </article>
+      <article class="zona reveal d1">
+        <span class="zona-num" aria-hidden="true">02</span>
+        <svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 17l4-8 4 5 3-9 4 12h3"/></svg>
+        <h3>Cardio</h3>
+        <p>Cintas, elípticas, remo y bicicletas de última generación con pantallas y programas conectados.</p>
+      </article>
+      <article class="zona reveal d2">
+        <span class="zona-num" aria-hidden="true">03</span>
+        <svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v4m0 10v4M3 12h4m10 0h4M6 6l2.5 2.5m7 7L18 18M18 6l-2.5 2.5m-7 7L6 18"/></svg>
+        <h3>Cross training</h3>
+        <p>Box completo con estructuras, anillas, sacos y zona de lanzamiento para el entrenamiento funcional más exigente.</p>
+      </article>
+      <article class="zona reveal">
+        <span class="zona-num" aria-hidden="true">04</span>
+        <svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20h16M6 20V9l6-5 6 5v11M10 20v-6h4v6"/></svg>
+        <h3>Zona Hyrox</h3>
+        <p>Pista indoor, sleds, wall balls y estaciones oficiales para preparar la disciplina híbrida que arrasa en Europa.</p>
+      </article>
+      <article class="zona reveal d1">
+        <span class="zona-num" aria-hidden="true">05</span>
+        <svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3.5 2"/></svg>
+        <h3>+30 clases dirigidas</h3>
+        <p>Ciclo indoor, HIIT, body pump, yoga, pilates, boxeo, zumba… salas amplias y monitores titulados a todas horas.</p>
+      </article>
+      <article class="zona reveal d2">
+        <span class="zona-num" aria-hidden="true">06</span>
+        <svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="7" r="3"/><circle cx="17" cy="9" r="2.4"/><path d="M3 20v-2a6 6 0 0 1 12 0v2M14 20v-1.5a4 4 0 0 1 7 0V20"/></svg>
+        <h3>Ludoteca infantil</h3>
+        <p>Tú entrenas y ellos juegan: espacio infantil supervisado para que la familia nunca sea una excusa.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- franja parallax -->
+<div class="franja">
+  <div class="capa capa-glow" data-parallax="0.3" data-raton="24"></div>
+  <div class="capa capa-rejilla" data-parallax="0.15" data-raton="14"></div>
+  <div class="capa capa-palabra franja-palabra" data-parallax="0.4" data-raton="36" aria-hidden="true">REUS</div>
+  <div class="wrap">
+    <blockquote class="reveal">
+      El mejor <span style="background:var(--flama);-webkit-background-clip:text;background-clip:text;color:transparent">centro deportivo</span> de Reus
+      <cite>Aleix y Nil · Fundadores de NitroGym</cite>
+    </blockquote>
+  </div>
+</div>
+
+<!-- ============ CLASES ============ -->
+<section id="clases">
+  <div class="wrap">
+    <p class="eyebrow reveal">Reserva tu plaza</p>
+    <h2 class="titulo reveal">Horario de <em>clases</em></h2>
+    <p class="sub reveal">
+      Consulta el horario semanal y reserva tu plaza desde aquí. Las reservas
+      quedan guardadas en tu cuenta de socio y se activarán con la apertura del club.
+    </p>
+    <div class="dias reveal" id="dias" role="tablist" aria-label="Día de la semana"></div>
+    <div class="clases-lista" id="clases-lista"></div>
+  </div>
+</section>
+
+<!-- ============ TIENDA ============ -->
+<section class="tienda" id="tienda">
+  <div class="wrap">
+    <p class="eyebrow reveal">Nitro Suplementación</p>
+    <h2 class="titulo reveal">La tienda <em>del club</em></h2>
+    <p class="sub reveal">
+      Suplementación deportiva y equipación oficial NitroGym. Compra online y
+      recoge tu pedido en recepción a partir del 1 de octubre. También puedes comprar
+      con envío a toda España en
+      <a href="https://nitrosuplementacion.com/" target="_blank" rel="noopener" style="color:var(--nitro2)">nitrosuplementacion.com</a>.
+    </p>
+    <div class="filtros reveal" id="filtros"></div>
+    <div class="prod-grid" id="prod-grid"></div>
+  </div>
+</section>
+
+<!-- ============ TARIFAS ============ -->
+<section id="tarifas">
+  <div class="wrap">
+    <p class="eyebrow reveal">Tarifas de lanzamiento</p>
+    <h2 class="titulo reveal">Hazte socio <em>fundador</em></h2>
+    <p class="sub reveal">
+      Solo hasta la inauguración: matrícula gratis y precio congelado para siempre
+      para los primeros socios fundadores.
+    </p>
+    <div class="tarifas-grid">
+      <article class="tarifa reveal">
+        <h3>Nitro Base</h3>
+        <div class="tarifa-precio">29,90<small> €/mes</small></div>
+        <ul>
+          <li>Acceso a sala fitness y cardio</li>
+          <li>Horario completo, 365 días</li>
+          <li>Parking gratuito</li>
+          <li>App de entrenamiento</li>
+        </ul>
+        <a class="btn btn-linea" href="#registro">Reservar plaza</a>
+      </article>
+      <article class="tarifa destacada reveal d1">
+        <span class="tarifa-etq">Socio fundador</span>
+        <h3>Nitro Total</h3>
+        <div class="tarifa-precio">39,90<small> €/mes</small></div>
+        <ul>
+          <li>Todo lo de Nitro Base</li>
+          <li>+30 clases dirigidas incluidas</li>
+          <li>Zona cross training y Hyrox</li>
+          <li>Ludoteca infantil incluida</li>
+          <li>Matrícula gratis y precio para siempre</li>
+        </ul>
+        <a class="btn btn-nitro" href="#registro">Quiero ser fundador</a>
+      </article>
+      <article class="tarifa reveal d2">
+        <h3>Nitro Pro</h3>
+        <div class="tarifa-precio">59,90<small> €/mes</small></div>
+        <ul>
+          <li>Todo lo de Nitro Total</li>
+          <li>2 sesiones de entrenador personal al mes</li>
+          <li>Plan nutricional trimestral</li>
+          <li>10 % de descuento en la tienda</li>
+        </ul>
+        <a class="btn btn-linea" href="#registro">Reservar plaza</a>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CÓMO LLEGAR ============ -->
+<section class="tienda" id="llegar">
+  <div class="wrap">
+    <p class="eyebrow reveal">Cómo llegar</p>
+    <h2 class="titulo reveal">Horts de Miró, <em>Reus</em></h2>
+    <div class="llegar-grid">
+      <div class="mapa reveal" role="img" aria-label="Mapa de situación de NitroGym en la calle Cels Gomis i Mestre 11 de Reus">
+        <svg viewBox="0 0 600 460" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+          <rect width="600" height="460" fill="#1a2030"/>
+          <g stroke="#242c3e" stroke-width="10" fill="none">
+            <path d="M-20 120 C 140 100, 300 150, 620 110"/>
+            <path d="M-20 250 C 180 230, 380 290, 620 250"/>
+            <path d="M-20 390 C 200 370, 420 410, 620 380"/>
+            <path d="M120 -20 C 140 140, 100 320, 130 480"/>
+            <path d="M300 -20 C 320 160, 300 300, 330 480"/>
+            <path d="M470 -20 C 450 150, 490 330, 460 480"/>
+          </g>
+          <g stroke="#2e3a52" stroke-width="4" fill="none" opacity=".7">
+            <path d="M-20 180 C 200 170, 400 200, 620 180"/>
+            <path d="M-20 320 C 160 310, 440 340, 620 310"/>
+            <path d="M210 -20 C 220 200, 200 340, 220 480"/>
+            <path d="M390 -20 C 380 140, 400 320, 390 480"/>
+          </g>
+          <path d="M-20 250 C 180 230, 380 290, 620 250" stroke="#2e6bff" stroke-width="10" fill="none" opacity=".85"/>
+          <circle cx="336" cy="203" r="46" fill="rgba(46,107,255,.16)"/>
+          <circle cx="336" cy="203" r="46" fill="none" stroke="#2e6bff" stroke-width="2" opacity=".6">
+            <animate attributeName="r" values="34;58;34" dur="3s" repeatCount="indefinite"/>
+            <animate attributeName="opacity" values=".7;.05;.7" dur="3s" repeatCount="indefinite"/>
+          </circle>
+          <g font-family="'Barlow Condensed',sans-serif" font-size="15" fill="#98a2b8" letter-spacing="2">
+            <text x="30" y="105" transform="rotate(-2 30 105)">AV. PAÏSOS CATALANS</text>
+            <text x="360" y="243" transform="rotate(3 360 243)">C. CELS GOMIS I MESTRES</text>
+            <text x="34" y="376">HORTS DE MIRÓ</text>
+            <text x="470" y="440">REUS</text>
+          </g>
+        </svg>
+        <div class="mapa-pin">
+          <div class="gota"></div>
+          <span>NitroGym · Nº 9-11</span>
+        </div>
+      </div>
+      <div class="llegar-info">
+        <div class="llegar-item reveal">
+          <svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s7-6.1 7-11a7 7 0 1 0-14 0c0 4.9 7 11 7 11z"/><circle cx="12" cy="10" r="2.6"/></svg>
+          <div>
+            <h3>Dirección</h3>
+            <p>Calle Cels Gomis i Mestres, 9-11 · Barrio Horts de Miró · 43204 Reus (Tarragona). La antigua nave del Mercadona, imposible perderse.</p>
+          </div>
+        </div>
+        <div class="llegar-item reveal d1">
+          <svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 16 3.5 11l2-5.5A2 2 0 0 1 7.4 4h9.2a2 2 0 0 1 1.9 1.5L20.5 11 19 16"/><path d="M3.5 11h17M5 16v3m14-3v3"/><circle cx="7.5" cy="13.5" r=".8"/><circle cx="16.5" cy="13.5" r=".8"/></svg>
+          <div>
+            <h3>En coche</h3>
+            <p>Parking gratuito para socios en la propia nave. Acceso directo desde la avenida dels Països Catalans y la T-11.</p>
+          </div>
+        </div>
+        <div class="llegar-item reveal d2">
+          <svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="3" width="14" height="15" rx="2.5"/><path d="M5 11h14M8 21l1-3m7 3-1-3"/><circle cx="8.5" cy="15" r=".8"/><circle cx="15.5" cy="15" r=".8"/></svg>
+          <div>
+            <h3>En bus urbano</h3>
+            <p>Líneas urbanas de Reus Transport con parada a pocos minutos a pie del barrio de Horts de Miró.</p>
+          </div>
+        </div>
+        <a class="btn btn-nitro reveal d3" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Carrer+de+Cels+Gomis+i+Mestres+9-11%2C+Reus">
+          Abrir en Google Maps
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7M9 7h8v8"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ REDES SOCIALES ============ -->
+<section id="redes">
+  <div class="wrap">
+    <p class="eyebrow reveal">Redes sociales</p>
+    <h2 class="titulo reveal">Síguenos: <em>@nitrogym_reus</em></h2>
+    <p class="sub reveal">
+      Las obras, las máquinas llegando, sorteos y la cuenta atrás de la apertura,
+      en directo en nuestras redes. Toda la familia Nitro de Reus, a un toque.
+    </p>
+    <div class="redes-grid">
+      <a class="red-card reveal" href="https://www.instagram.com/nitrogym_reus/" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r=".9" fill="url(#gradNitro)" stroke="none"/></svg>
+        <div><h3>Instagram</h3><span class="arroba">@nitrogym_reus</span></div>
+        <p>La cuenta oficial del nuevo gimnasio: obras, avances y sorteos de la inauguración.</p>
+      </a>
+      <a class="red-card reveal d1" href="https://www.tiktok.com/@nitrogym_reus" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14 4v9.5a3.75 3.75 0 1 1-3.75-3.75"/><path d="M14 4c.4 2.6 2.4 4.4 5 4.7"/></svg>
+        <div><h3>TikTok</h3><span class="arroba">@nitrogym_reus</span></div>
+        <p>Tours por la nave, el equipamiento llegando y los vídeos más virales del club.</p>
+      </a>
+      <a class="red-card reveal d2" href="https://www.instagram.com/nitrofitnessclub/" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round"><path d="M6 7v10M18 7v10M3 9v6M21 9v6M6 12h12"/></svg>
+        <div><h3>Nitro Fitness Club</h3><span class="arroba">@nitrofitnessclub</span></div>
+        <p>Nuestro club de la calle Sor Lluïsa Estivill, 16: funcional, cross, fisioterapia y nutrición.</p>
+      </a>
+      <a class="red-card reveal d3" href="https://www.instagram.com/nitrosuplementacion_reus/" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M6 8h12l-1 13H7zM9 8V6a3 3 0 0 1 6 0v2"/></svg>
+        <div><h3>Nitro Suplementación</h3><span class="arroba">@nitrosuplementacion_reus</span></div>
+        <p>Nuestra tienda de suplementos, con envíos a toda España desde <b style="color:var(--texto)">nitrosuplementacion.com</b>.</p>
+      </a>
+    </div>
+    <div class="red-video reveal">
+      <p><b>Último bombazo en TikTok:</b> somos centro oficial <b>Etenon Fitness</b> — máquinas y equipamiento de primer nivel para la apertura.</p>
+      <a class="btn btn-nitro" href="https://www.tiktok.com/@nitrogym_reus/video/7640136541259435286" target="_blank" rel="noopener">Ver el vídeo</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ REGISTRO ============ -->
+<section class="registro" id="registro">
+  <div class="wrap">
+    <p class="eyebrow reveal" style="justify-content:center">Preinscripción abierta</p>
+    <h2 class="titulo reveal">Sé de los <em>primeros</em></h2>
+    <p class="sub reveal" style="margin-left:auto;margin-right:auto">
+      Déjanos tu correo y te avisaremos antes que a nadie de la apertura de plazas
+      de socio fundador y del día de puertas abiertas.
+    </p>
+    <form class="form-linea reveal" id="form-news">
+      <input type="email" placeholder="tu@correo.com" required aria-label="Tu correo electrónico">
+      <button class="btn btn-nitro" type="submit">Avisadme</button>
+    </form>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="pie-grid">
+      <div>
+        <a class="logo" href="#inicio" style="margin-bottom:16px">NITRO<b>GYM</b></a>
+        <p>El gimnasio más grande de Reus: más de 5.000 m² de entrenamiento en Horts de Miró. De la familia Nitro Fitness Club y Nitro Suplementación.</p>
+        <div class="pie-redes">
+          <a href="https://www.instagram.com/nitrogym_reus/" target="_blank" rel="noopener" aria-label="Instagram de NitroGym Reus">
+            <svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r=".9" fill="url(#gradNitro)" stroke="none"/></svg>
+          </a>
+          <a href="https://www.tiktok.com/@nitrogym_reus" target="_blank" rel="noopener" aria-label="TikTok de NitroGym Reus">
+            <svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14 4v9.5a3.75 3.75 0 1 1-3.75-3.75"/><path d="M14 4c.4 2.6 2.4 4.4 5 4.7"/></svg>
+          </a>
+          <a href="https://www.instagram.com/nitrosuplementacion_reus/" target="_blank" rel="noopener" aria-label="Instagram de Nitro Suplementación">
+            <svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M6 8h12l-1 13H7zM9 8V6a3 3 0 0 1 6 0v2"/></svg>
+          </a>
+          <a href="https://nitrosuplementacion.com/" target="_blank" rel="noopener" aria-label="Tienda online Nitro Suplementación">
+            <svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.4 4 5.6 4 9s-1.5 6.6-4 9c-2.5-2.4-4-5.6-4-9s1.5-6.6 4-9z"/></svg>
+          </a>
+        </div>
+      </div>
+      <div>
+        <h4>El club</h4>
+        <ul>
+          <li><a href="#club">Instalaciones</a></li>
+          <li><a href="#clases">Clases dirigidas</a></li>
+          <li><a href="#tarifas">Tarifas</a></li>
+          <li><a href="#tienda">Tienda</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contacto</h4>
+        <ul>
+          <li><a href="https://www.google.com/maps/search/?api=1&query=Carrer+de+Cels+Gomis+i+Mestres+9-11%2C+Reus" target="_blank" rel="noopener">C. Cels Gomis i Mestres, 9-11</a></li>
+          <li><a href="#llegar">43204 Reus · Tarragona</a></li>
+          <li><a href="#registro">info@nitrogymreus.es</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Horario</h4>
+        <ul>
+          <li><a href="#club">365 días al año</a></li>
+          <li><a href="#club">Más de 12 h diarias</a></li>
+          <li><a href="#registro">Apertura: 01.10.2026</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="pie-legal">
+      <span>© 2026 NitroGym Reus · Todos los derechos reservados</span>
+      <span>
+        <a href="#" data-legal="aviso" style="color:var(--texto2)">Aviso legal</a> ·
+        <a href="#" data-legal="privacidad" style="color:var(--texto2)">Privacidad</a> ·
+        <a href="#" data-legal="cookies" style="color:var(--texto2)">Política de cookies</a> ·
+        <a href="#" data-abrir-cookies style="color:var(--texto2)">Configurar cookies</a>
+      </span>
+    </div>
+  </div>
+</footer>
+
+<!-- ============ CARRITO LATERAL ============ -->
+<div class="velo" id="velo"></div>
+<aside class="panel-lateral" id="panel-carro" aria-label="Carrito de compra">
+  <div class="panel-cab">
+    <h3>Tu carrito</h3>
+    <button class="cerrar-x" data-cerrar aria-label="Cerrar carrito">×</button>
+  </div>
+  <div class="panel-cuerpo" id="carro-cuerpo"></div>
+  <div class="panel-pie">
+    <div class="carro-total"><span>Total</span><b id="carro-total">0,00 €</b></div>
+    <button class="btn btn-nitro" id="btn-pagar" style="width:100%;justify-content:center">Tramitar pedido</button>
+    <p style="color:var(--texto2);font-size:.82rem;text-align:center">Recogida en recepción a partir del 1 de octubre. El pago online se activará con la apertura.</p>
+  </div>
+</aside>
+
+<!-- ============ MODAL CUENTA ============ -->
+<div class="modal" id="modal-cuenta">
+  <div class="velo on" style="position:absolute" data-cerrar></div>
+  <div class="modal-caja">
+    <button class="cerrar-x modal-cerrar" data-cerrar aria-label="Cerrar">×</button>
+    <div id="vista-login">
+      <h3>Área de socios</h3>
+      <p class="nota">Accede para reservar clases y guardar tus pedidos.</p>
+      <form id="form-login">
+        <input type="text" id="log-nombre" placeholder="Tu nombre" required>
+        <input type="email" id="log-email" placeholder="tu@correo.com" required>
+        <button class="btn btn-nitro" type="submit" style="width:100%;justify-content:center">Entrar</button>
+      </form>
+      <p class="modal-alt">¿Aún no eres socio? El registro se completa el mismo día con tu primer acceso.</p>
+    </div>
+    <div id="vista-perfil" style="display:none">
+      <h3 id="perfil-hola">Hola</h3>
+      <p class="nota">Socio fundador en espera de apertura · Nº <b id="perfil-num">—</b></p>
+      <h3 style="font-size:1.05rem;margin-top:8px">Mis reservas</h3>
+      <div class="mis-reservas" id="mis-reservas"></div>
+      <button class="btn btn-linea" id="btn-salir" style="width:100%;justify-content:center;margin-top:20px">Cerrar sesión</button>
+    </div>
+  </div>
+</div>
+
+<!-- ============ MODAL RESERVA ============ -->
+<div class="modal" id="modal-reserva">
+  <div class="velo on" style="position:absolute" data-cerrar></div>
+  <div class="modal-caja">
+    <button class="cerrar-x modal-cerrar" data-cerrar aria-label="Cerrar">×</button>
+    <h3>Reservar clase</h3>
+    <p class="nota" id="reserva-detalle"></p>
+    <button class="btn btn-nitro" id="btn-confirmar-reserva" style="width:100%;justify-content:center">Confirmar reserva</button>
+  </div>
+</div>
+
+<!-- ============ AVISO DE COOKIES ============ -->
+<div class="cookies" id="cookies" role="dialog" aria-label="Aviso de cookies">
+  <h4>
+    <svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><circle cx="9" cy="10" r=".9" fill="url(#gradNitro)" stroke="none"/><circle cx="14.5" cy="9" r=".9" fill="url(#gradNitro)" stroke="none"/><circle cx="10.5" cy="14.5" r=".9" fill="url(#gradNitro)" stroke="none"/><circle cx="15" cy="14" r=".9" fill="url(#gradNitro)" stroke="none"/></svg>
+    Esta web usa cookies
+  </h4>
+  <p>
+    Usamos almacenamiento técnico imprescindible (tu carrito, tus reservas y tu sesión)
+    y, solo si lo aceptas, contenido de terceros como el vídeo de portada y las fuentes.
+    Más detalle en la <button type="button" data-legal="cookies">política de cookies</button>.
+  </p>
+  <div class="cookies-botones">
+    <button class="btn btn-nitro" id="ck-aceptar" style="padding:12px 22px">Aceptar todas</button>
+    <button class="btn btn-linea" id="ck-necesarias" style="padding:12px 22px">Solo necesarias</button>
+  </div>
+</div>
+
+<!-- ============ PÁGINAS LEGALES ============ -->
+<div class="legal" id="legal-aviso" role="dialog" aria-label="Aviso legal">
+  <div class="legal-int">
+    <button class="btn btn-linea legal-cerrar" data-cerrar-legal>← Volver</button>
+    <p class="eyebrow">Legal</p>
+    <h2>Aviso legal</h2>
+    <h3>1. Titular del sitio web</h3>
+    <p>En cumplimiento de la Ley 34/2002, de 11 de julio, de Servicios de la Sociedad de la Información y de Comercio Electrónico (LSSI-CE), se informa de que el titular de este sitio web es:</p>
+    <ul>
+      <li><b style="color:var(--texto)">Denominación:</b> NitroGym Reus — [razón social pendiente de completar]</li>
+      <li><b style="color:var(--texto)">NIF/CIF:</b> [pendiente de completar]</li>
+      <li><b style="color:var(--texto)">Domicilio:</b> Calle Cels Gomis i Mestres, 9-11 · 43204 Reus (Tarragona)</li>
+      <li><b style="color:var(--texto)">Correo electrónico:</b> info@nitrogymreus.es</li>
+    </ul>
+    <h3>2. Objeto</h3>
+    <p>Este sitio web tiene por objeto dar a conocer las instalaciones, servicios, clases y productos de NitroGym Reus, así como permitir la preinscripción de socios, la reserva de clases y la compra de productos para su recogida en el centro.</p>
+    <h3>3. Propiedad intelectual e industrial</h3>
+    <p>Todos los contenidos de este sitio (textos, diseño, logotipos, iconos e imágenes propias) son titularidad de NitroGym Reus o de sus legítimos propietarios, y están protegidos por la normativa de propiedad intelectual e industrial. Queda prohibida su reproducción sin autorización expresa. El vídeo de portada procede de bancos de recursos con licencia de uso libre.</p>
+    <h3>4. Responsabilidad</h3>
+    <p>NitroGym Reus no se hace responsable del mal uso que se realice de los contenidos de este sitio web ni de los contenidos de sitios de terceros enlazados (redes sociales, mapas, tienda de suplementación). Los precios y horarios mostrados antes de la inauguración tienen carácter informativo y pueden sufrir cambios.</p>
+    <h3>5. Legislación aplicable</h3>
+    <p>La relación entre NitroGym Reus y los usuarios se rige por la normativa española. Cualquier controversia se someterá a los Juzgados y Tribunales de Reus, salvo que la normativa de consumidores disponga otro fuero.</p>
+  </div>
+</div>
+
+<div class="legal" id="legal-privacidad" role="dialog" aria-label="Política de privacidad">
+  <div class="legal-int">
+    <button class="btn btn-linea legal-cerrar" data-cerrar-legal>← Volver</button>
+    <p class="eyebrow">Legal</p>
+    <h2>Política de privacidad</h2>
+    <h3>1. Responsable del tratamiento</h3>
+    <p>NitroGym Reus — [razón social y NIF/CIF pendientes de completar] · Calle Cels Gomis i Mestres, 9-11 · 43204 Reus (Tarragona) · info@nitrogymreus.es</p>
+    <h3>2. Qué datos tratamos y para qué</h3>
+    <ul>
+      <li><b style="color:var(--texto)">Preinscripción y avisos:</b> el correo que nos dejas en el formulario se usa únicamente para avisarte de la apertura de plazas y del día de puertas abiertas.</li>
+      <li><b style="color:var(--texto)">Reservas, carrito y sesión:</b> en la versión actual de esta web, estos datos se guardan <b style="color:var(--texto)">solo en tu propio navegador</b> (almacenamiento local) y no se envían a ningún servidor de NitroGym.</li>
+      <li><b style="color:var(--texto)">Alta de socio:</b> los datos necesarios para el contrato de socio se recogerán presencialmente o mediante la plataforma de gestión del club a partir de la apertura, con su propia información de privacidad.</li>
+    </ul>
+    <h3>3. Legitimación</h3>
+    <p>La base legal es tu consentimiento (art. 6.1.a RGPD), que puedes retirar en cualquier momento, y, en su caso, la ejecución del contrato de socio (art. 6.1.b RGPD).</p>
+    <h3>4. Conservación y destinatarios</h3>
+    <p>Los datos se conservarán mientras no solicites su supresión y no se cederán a terceros salvo obligación legal. No se realizan transferencias internacionales de datos.</p>
+    <h3>5. Tus derechos</h3>
+    <p>Puedes ejercer tus derechos de acceso, rectificación, supresión, oposición, limitación y portabilidad escribiendo a info@nitrogymreus.es. Si consideras que el tratamiento no se ajusta a la normativa, puedes reclamar ante la Agencia Española de Protección de Datos (<a href="https://www.aepd.es" target="_blank" rel="noopener">www.aepd.es</a>).</p>
+  </div>
+</div>
+
+<div class="legal" id="legal-cookies" role="dialog" aria-label="Política de cookies">
+  <div class="legal-int">
+    <button class="btn btn-linea legal-cerrar" data-cerrar-legal>← Volver</button>
+    <p class="eyebrow">Legal</p>
+    <h2>Política de cookies</h2>
+    <h3>1. Qué son las cookies</h3>
+    <p>Las cookies y tecnologías similares (como el almacenamiento local del navegador) son pequeños ficheros de datos que se guardan en tu dispositivo cuando visitas una web, y que permiten recordar tus preferencias o el estado de tu visita.</p>
+    <h3>2. Qué usamos en esta web</h3>
+    <div class="tabla-scroll">
+      <table>
+        <tr><th>Nombre</th><th>Tipo</th><th>Finalidad</th><th>Duración</th></tr>
+        <tr><td>ng_carro</td><td>Técnica (propia)</td><td>Recordar los productos de tu carrito</td><td>Hasta que la borres</td></tr>
+        <tr><td>ng_reservas</td><td>Técnica (propia)</td><td>Guardar tus reservas de clases</td><td>Hasta que la borres</td></tr>
+        <tr><td>ng_usuario</td><td>Técnica (propia)</td><td>Mantener tu sesión de socio iniciada</td><td>Hasta cerrar sesión</td></tr>
+        <tr><td>ng_cookies</td><td>Técnica (propia)</td><td>Recordar tu elección sobre cookies</td><td>Hasta que la borres</td></tr>
+        <tr><td>Vídeo y fuentes</td><td>Terceros</td><td>El vídeo de portada (Mixkit) y las fuentes (Google Fonts) se cargan de servidores externos que pueden registrar tu IP</td><td>Según el tercero</td></tr>
+      </table>
+    </div>
+    <p>Esta web <b style="color:var(--texto)">no utiliza cookies publicitarias ni de análisis</b>. El almacenamiento técnico propio no sale de tu navegador.</p>
+    <h3>3. Cómo cambiar tu elección</h3>
+    <p>Puedes reabrir el panel de configuración desde el enlace «Configurar cookies» del pie de página, o borrar los datos guardados desde la configuración de tu navegador (Historial → Borrar datos de navegación → Cookies y datos de sitios).</p>
+    <h3>4. Cookies en tu navegador</h3>
+    <p>Todos los navegadores permiten bloquear o eliminar cookies: consulta la ayuda de Chrome, Firefox, Safari o Edge para hacerlo. Ten en cuenta que si borras el almacenamiento de esta web perderás tu carrito y tus reservas guardadas.</p>
+  </div>
+</div>
+
+<div class="toast" id="toast" role="status"></div>
+
+<script>
+/* ================= datos ================= */
+const CLASES = {
+  "Lunes":[
+    {h:"07:30",n:"Ciclo Indoor",m:"Sala Ciclo · 45 min · Marta",p:22},
+    {h:"09:30",n:"Pilates",m:"Sala 2 · 50 min · Laia",p:18},
+    {h:"12:00",n:"HIIT",m:"Sala 1 · 30 min · Aleix",p:20},
+    {h:"18:00",n:"Cross Training",m:"Box Nitro · 60 min · Nil",p:16},
+    {h:"19:00",n:"Body Pump",m:"Sala 1 · 55 min · Sergi",p:25},
+    {h:"20:15",n:"Boxeo",m:"Zona Combate · 60 min · Iván",p:14}
+  ],
+  "Martes":[
+    {h:"07:30",n:"HIIT",m:"Sala 1 · 30 min · Aleix",p:20},
+    {h:"10:00",n:"Yoga",m:"Sala Zen · 60 min · Carla",p:20},
+    {h:"17:30",n:"Hyrox Prep",m:"Pista Hyrox · 60 min · Nil",p:12},
+    {h:"19:00",n:"Zumba",m:"Sala 1 · 50 min · Noelia",p:30},
+    {h:"20:30",n:"Ciclo Indoor",m:"Sala Ciclo · 45 min · Marta",p:22}
+  ],
+  "Miércoles":[
+    {h:"07:30",n:"Cross Training",m:"Box Nitro · 60 min · Nil",p:16},
+    {h:"09:30",n:"Pilates",m:"Sala 2 · 50 min · Laia",p:18},
+    {h:"12:00",n:"Body Pump",m:"Sala 1 · 55 min · Sergi",p:25},
+    {h:"18:00",n:"HIIT",m:"Sala 1 · 30 min · Aleix",p:20},
+    {h:"19:30",n:"Boxeo",m:"Zona Combate · 60 min · Iván",p:14},
+    {h:"20:30",n:"Yoga",m:"Sala Zen · 60 min · Carla",p:20}
+  ],
+  "Jueves":[
+    {h:"07:30",n:"Ciclo Indoor",m:"Sala Ciclo · 45 min · Marta",p:22},
+    {h:"10:00",n:"Zumba",m:"Sala 1 · 50 min · Noelia",p:30},
+    {h:"17:30",n:"Hyrox Prep",m:"Pista Hyrox · 60 min · Nil",p:12},
+    {h:"19:00",n:"Cross Training",m:"Box Nitro · 60 min · Nil",p:16},
+    {h:"20:15",n:"Pilates",m:"Sala 2 · 50 min · Laia",p:18}
+  ],
+  "Viernes":[
+    {h:"07:30",n:"HIIT",m:"Sala 1 · 30 min · Aleix",p:20},
+    {h:"09:30",n:"Yoga",m:"Sala Zen · 60 min · Carla",p:20},
+    {h:"18:00",n:"Body Pump",m:"Sala 1 · 55 min · Sergi",p:25},
+    {h:"19:00",n:"Boxeo",m:"Zona Combate · 60 min · Iván",p:14},
+    {h:"20:00",n:"Ciclo Indoor",m:"Sala Ciclo · 45 min · Marta",p:22}
+  ],
+  "Sábado":[
+    {h:"09:00",n:"Hyrox Prep",m:"Pista Hyrox · 75 min · Nil",p:12},
+    {h:"10:30",n:"Cross Training",m:"Box Nitro · 60 min · Aleix",p:16},
+    {h:"11:30",n:"Zumba",m:"Sala 1 · 50 min · Noelia",p:30},
+    {h:"12:30",n:"Yoga",m:"Sala Zen · 60 min · Carla",p:20}
+  ],
+  "Domingo":[
+    {h:"09:30",n:"Ciclo Indoor",m:"Sala Ciclo · 45 min · Marta",p:22},
+    {h:"10:30",n:"Body Pump",m:"Sala 1 · 55 min · Sergi",p:25},
+    {h:"11:30",n:"Pilates",m:"Sala 2 · 50 min · Laia",p:18}
+  ]
+};
+
+const PRODUCTOS = [
+  {id:"prot",cat:"Suplementación",n:"Proteína Whey Nitro 2 kg",d:"Aislado de suero sabor chocolate. 24 g de proteína por dosis.",pr:44.90,ant:54.90,etq:"Oferta",ico:"bote"},
+  {id:"crea",cat:"Suplementación",n:"Creatina Monohidrato 500 g",d:"Creatina micronizada pura. El suplemento más estudiado.",pr:24.90,ico:"bote"},
+  {id:"pre",cat:"Suplementación",n:"Pre-entreno Nitro Boost",d:"Energía explosiva con cafeína, beta-alanina y citrulina.",pr:29.90,etq:"Top ventas",ico:"rayo"},
+  {id:"barr",cat:"Suplementación",n:"Barritas proteicas (12 uds)",d:"20 g de proteína por barrita. Chocolate y caramelo.",pr:19.90,ico:"barra"},
+  {id:"cami",cat:"Equipación",n:"Camiseta oficial NitroGym",d:"Tejido técnico transpirable con el logo del club. Tallas S–XXL.",pr:22.00,etq:"Nuevo",ico:"camiseta"},
+  {id:"sud",cat:"Equipación",n:"Sudadera Nitro Heavy",d:"Algodón premium 380 g con capucha. Edición inauguración.",pr:39.90,ico:"camiseta"},
+  {id:"shak",cat:"Accesorios",n:"Shaker Nitro 700 ml",d:"Mezclador antigoteo con rejilla y medidor. Libre de BPA.",pr:8.90,ico:"shaker"},
+  {id:"bot",cat:"Accesorios",n:"Botella térmica 1 L",d:"Acero inoxidable, frío 24 h. Grabado láser NitroGym.",pr:16.90,ico:"shaker"},
+  {id:"toa",cat:"Accesorios",n:"Toalla técnica microfibra",d:"Secado rápido, tamaño entrenamiento, bolsillo con cremallera.",pr:12.90,ico:"toalla"},
+  {id:"guan",cat:"Accesorios",n:"Guantes de entrenamiento",d:"Agarre reforzado y muñequera integrada. Tallas S–XL.",pr:14.90,ico:"guante"}
+];
+
+const ICONOS = {
+  bote:'<svg viewBox="0 0 24 24" fill="none" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M8 3h8v3H8zM7 6h10l1 3v11a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 6 20V9z"/><path d="M9 13h6M9 16h6"/></svg>',
+  rayo:'<svg viewBox="0 0 24 24" fill="none" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2 4.5 13.5H11L9.5 22 20 9.5h-6.5L13 2z"/></svg>',
+  barra:'<svg viewBox="0 0 24 24" fill="none" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="8" width="18" height="8" rx="2"/><path d="M8 8v8m4-8v8m4-8v8"/></svg>',
+  camiseta:'<svg viewBox="0 0 24 24" fill="none" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M9 4 4 7l2 4 2-1v10h8V10l2 1 2-4-5-3a3 3 0 0 1-6 0z"/></svg>',
+  shaker:'<svg viewBox="0 0 24 24" fill="none" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M9 2h6M8 5h8l-1.2 15a2 2 0 0 1-2 1.8h-1.6a2 2 0 0 1-2-1.8z"/><path d="M8.5 10h7"/></svg>',
+  toalla:'<svg viewBox="0 0 24 24" fill="none" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M7 3h10v18l-2.5-2-2.5 2-2.5-2L7 21z"/><path d="M7 8h10"/></svg>',
+  guante:'<svg viewBox="0 0 24 24" fill="none" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M8 11V5a2 2 0 0 1 4 0v5m0-4a2 2 0 0 1 4 0v5m0-2a2 2 0 0 1 4 0v5a8 8 0 0 1-8 8h-1a7 7 0 0 1-7-7v-3a2 2 0 0 1 4 0"/></svg>'
+};
+
+/* ================= estado ================= */
+const leer=(k,v)=>{try{return JSON.parse(localStorage.getItem(k))??v}catch{return v}};
+const guardar=(k,v)=>localStorage.setItem(k,JSON.stringify(v));
+let carro=leer("ng_carro",{});
+let usuario=leer("ng_usuario",null);
+let reservas=leer("ng_reservas",[]);
+
+const $=s=>document.querySelector(s);
+const fmt=n=>n.toFixed(2).replace(".",",")+" €";
+function toast(msg){
+  const t=$("#toast");t.textContent=msg;t.classList.add("on");
+  clearTimeout(t._tm);t._tm=setTimeout(()=>t.classList.remove("on"),2600);
+}
+
+/* ================= cabecera ================= */
+const cab=$("#cabecera");
+addEventListener("scroll",()=>cab.classList.toggle("solida",scrollY>40),{passive:true});
+$("#abrir-menu").addEventListener("click",e=>{
+  const m=$("#menu");m.classList.toggle("abierto");
+  e.currentTarget.setAttribute("aria-expanded",m.classList.contains("abierto"));
+});
+document.querySelectorAll("#menu a").forEach(a=>a.addEventListener("click",()=>$("#menu").classList.remove("abierto")));
+
+/* ================= parallax (scroll + ratón) ================= */
+const capas=[...document.querySelectorAll("[data-parallax]")];
+const movOk=!matchMedia("(prefers-reduced-motion: reduce)").matches;
+const ratonFino=matchMedia("(pointer: fine)").matches;
+let rx=0,ry=0;
+function pintarParallax(){
+  capas.forEach(c=>{
+    const r=c.parentElement.getBoundingClientRect();
+    if(r.bottom<0||r.top>innerHeight)return;
+    const v=parseFloat(c.dataset.parallax);
+    const f=parseFloat(c.dataset.raton||0);
+    c.style.transform=`translate3d(${(rx*f).toFixed(1)}px,${(r.top*-v+ry*f).toFixed(1)}px,0)`;
+  });
+}
+if(movOk){
+  let tick=false;
+  const pedir=()=>{if(tick)return;tick=true;requestAnimationFrame(()=>{pintarParallax();tick=false})};
+  addEventListener("scroll",pedir,{passive:true});
+  if(ratonFino){
+    addEventListener("mousemove",e=>{
+      rx=e.clientX/innerWidth-.5;
+      ry=e.clientY/innerHeight-.5;
+      pedir();
+    },{passive:true});
+  }
+}
+
+/* ================= vídeo del hero ================= */
+const vid=document.getElementById("video-hero");
+if(vid){
+  if(movOk){
+    vid.addEventListener("canplay",()=>vid.classList.add("listo"));
+    new IntersectionObserver(es=>es.forEach(e=>{
+      if(e.isIntersecting){vid.play().catch(()=>{})}else{vid.pause()}
+    }),{threshold:.05}).observe(vid.parentElement);
+  }else{
+    vid.removeAttribute("autoplay");vid.pause();
+  }
+}
+
+/* ================= efectos de botones ================= */
+document.addEventListener("click",e=>{
+  const b=e.target.closest(".btn,.btn-mini");
+  if(!b||b.id==="btn-carro")return;
+  const r=b.getBoundingClientRect(),d=Math.max(r.width,r.height);
+  const o=document.createElement("span");o.className="onda";
+  o.style.cssText=`width:${d}px;height:${d}px;left:${e.clientX-r.left-d/2}px;top:${e.clientY-r.top-d/2}px`;
+  b.appendChild(o);
+  setTimeout(()=>o.remove(),700);
+});
+if(movOk&&ratonFino){
+  document.querySelectorAll(".hero-cta .btn").forEach(b=>{
+    b.addEventListener("mousemove",e=>{
+      const r=b.getBoundingClientRect();
+      b.style.transform=`translate(${(((e.clientX-r.left)/r.width)-.5)*14}px,${(((e.clientY-r.top)/r.height)-.5)*10}px) scale(1.04)`;
+    });
+    b.addEventListener("mouseleave",()=>b.style.transform="");
+  });
+  document.querySelectorAll(".zona").forEach(z=>{
+    z.addEventListener("mousemove",e=>{
+      const r=z.getBoundingClientRect();
+      const gx=((e.clientX-r.left)/r.width)-.5,gy=((e.clientY-r.top)/r.height)-.5;
+      z.style.transform=`translateY(-6px) perspective(700px) rotateX(${(-gy*7).toFixed(2)}deg) rotateY(${(gx*7).toFixed(2)}deg)`;
+    });
+    z.addEventListener("mouseleave",()=>z.style.transform="");
+  });
+}
+
+/* ================= revelado + contadores ================= */
+const io=new IntersectionObserver(es=>es.forEach(e=>{
+  if(!e.isIntersecting)return;
+  e.target.classList.add("vis");
+  e.target.querySelectorAll("[data-contar]").forEach(el=>{
+    if(el._hecho)return;el._hecho=true;
+    const fin=+el.dataset.contar,t0=performance.now(),dur=movOk?1400:1;
+    const paso=t=>{
+      const p=Math.min((t-t0)/dur,1);
+      el.textContent=Math.round(fin*(1-Math.pow(1-p,3))).toLocaleString("es-ES");
+      if(p<1)requestAnimationFrame(paso);
+    };
+    requestAnimationFrame(paso);
+  });
+  io.unobserve(e.target);
+}),{threshold:.18});
+document.querySelectorAll(".reveal,.cifras-grid").forEach(el=>io.observe(el));
+
+/* ================= cuenta atrás ================= */
+const APERTURA=new Date("2026-10-01T09:00:00+02:00").getTime();
+function cuenta(){
+  const d=Math.max(0,APERTURA-Date.now());
+  $("#c-dias").textContent=Math.floor(d/864e5);
+  $("#c-horas").textContent=String(Math.floor(d/36e5)%24).padStart(2,"0");
+  $("#c-min").textContent=String(Math.floor(d/6e4)%60).padStart(2,"0");
+  $("#c-seg").textContent=String(Math.floor(d/1e3)%60).padStart(2,"0");
+}
+cuenta();setInterval(cuenta,1000);
+
+/* ================= clases ================= */
+const dias=Object.keys(CLASES);
+const hoyIdx=Math.min(Math.max(new Date().getDay()-1,0),6);
+let diaActivo=dias[hoyIdx]||"Lunes";
+let claseSel=null;
+
+function pintarDias(){
+  $("#dias").innerHTML=dias.map(d=>
+    `<button class="dia-btn ${d===diaActivo?"activo":""}" role="tab" aria-selected="${d===diaActivo}" data-dia="${d}">${d}</button>`
+  ).join("");
+}
+function claveReserva(dia,c){return `${dia}|${c.h}|${c.n}`}
+function pintarClases(){
+  $("#clases-lista").innerHTML=CLASES[diaActivo].map((c,i)=>{
+    const ya=reservas.some(r=>r.k===claveReserva(diaActivo,c));
+    return `<div class="clase">
+      <span class="clase-hora">${c.h}</span>
+      <span><span class="clase-nombre">${c.n}</span><br><span class="clase-info">${c.m}</span></span>
+      <span class="clase-plazas"><b>${c.p}</b> plazas</span>
+      <button class="btn-mini ${ya?"btn-cuenta":"btn-carro"}" data-reservar="${i}" ${ya?"disabled":""}>${ya?"Reservada":"Reservar"}</button>
+    </div>`;
+  }).join("");
+}
+pintarDias();pintarClases();
+$("#dias").addEventListener("click",e=>{
+  const b=e.target.closest("[data-dia]");if(!b)return;
+  diaActivo=b.dataset.dia;pintarDias();pintarClases();
+});
+$("#clases-lista").addEventListener("click",e=>{
+  const b=e.target.closest("[data-reservar]");if(!b||b.disabled)return;
+  if(!usuario){abrirModal("modal-cuenta");toast("Accede para reservar tu clase");return}
+  claseSel=CLASES[diaActivo][+b.dataset.reservar];
+  $("#reserva-detalle").innerHTML=`<b>${claseSel.n}</b> · ${diaActivo} a las ${claseSel.h}<br>${claseSel.m}`;
+  abrirModal("modal-reserva");
+});
+$("#btn-confirmar-reserva").addEventListener("click",()=>{
+  if(!claseSel)return;
+  reservas.push({k:claveReserva(diaActivo,claseSel),dia:diaActivo,h:claseSel.h,n:claseSel.n});
+  guardar("ng_reservas",reservas);
+  cerrarModales();pintarClases();
+  toast("Reserva confirmada. ¡Nos vemos el día 1!");
+});
+
+/* ================= tienda ================= */
+const cats=["Todo",...new Set(PRODUCTOS.map(p=>p.cat))];
+let catActiva="Todo";
+function pintarFiltros(){
+  $("#filtros").innerHTML=cats.map(c=>
+    `<button class="dia-btn ${c===catActiva?"activo":""}" data-cat="${c}">${c}</button>`
+  ).join("");
+}
+function pintarProductos(){
+  const lista=PRODUCTOS.filter(p=>catActiva==="Todo"||p.cat===catActiva);
+  $("#prod-grid").innerHTML=lista.map(p=>`
+    <article class="prod">
+      <div class="prod-img">${p.etq?`<span class="prod-etq">${p.etq}</span>`:""}${ICONOS[p.ico]}</div>
+      <div class="prod-cuerpo">
+        <span class="prod-cat">${p.cat}</span>
+        <h3>${p.n}</h3>
+        <p>${p.d}</p>
+        <div class="prod-pie">
+          <span class="prod-precio">${p.ant?`<small>${fmt(p.ant)}</small>`:""}${fmt(p.pr)}</span>
+          <button class="btn-mini btn-carro" data-add="${p.id}">Añadir</button>
+        </div>
+      </div>
+    </article>`).join("");
+}
+pintarFiltros();pintarProductos();
+$("#filtros").addEventListener("click",e=>{
+  const b=e.target.closest("[data-cat]");if(!b)return;
+  catActiva=b.dataset.cat;pintarFiltros();pintarProductos();
+});
+$("#prod-grid").addEventListener("click",e=>{
+  const b=e.target.closest("[data-add]");if(!b)return;
+  carro[b.dataset.add]=(carro[b.dataset.add]||0)+1;
+  guardar("ng_carro",carro);pintarCarro();
+  toast("Añadido al carrito");
+});
+
+/* ================= carrito ================= */
+function pintarCarro(){
+  const ids=Object.keys(carro).filter(id=>carro[id]>0);
+  const cuerpo=$("#carro-cuerpo");
+  let total=0,unidades=0;
+  if(!ids.length){
+    cuerpo.innerHTML=`<p class="carro-vacio">Tu carrito está vacío.<br>La tienda te espera más arriba.</p>`;
+  }else{
+    cuerpo.innerHTML=ids.map(id=>{
+      const p=PRODUCTOS.find(x=>x.id===id),q=carro[id];
+      total+=p.pr*q;unidades+=q;
+      return `<div class="carro-item">
+        ${ICONOS[p.ico]}
+        <div><h4>${p.n}</h4>
+          <div class="cant">
+            <button data-q="${id}|-1" aria-label="Quitar una unidad">−</button>
+            <span>${q}</span>
+            <button data-q="${id}|1" aria-label="Añadir una unidad">+</button>
+          </div>
+        </div>
+        <span class="carro-precio">${fmt(p.pr*q)}</span>
+      </div>`;
+    }).join("");
+  }
+  $("#carro-total").textContent=fmt(total);
+  const bd=$("#badge-carro");
+  bd.textContent=unidades;bd.classList.toggle("on",unidades>0);
+}
+pintarCarro();
+$("#carro-cuerpo").addEventListener("click",e=>{
+  const b=e.target.closest("[data-q]");if(!b)return;
+  const[id,d]=b.dataset.q.split("|");
+  carro[id]=Math.max(0,(carro[id]||0)+ +d);
+  if(!carro[id])delete carro[id];
+  guardar("ng_carro",carro);pintarCarro();
+});
+$("#btn-carro").addEventListener("click",()=>{
+  $("#panel-carro").classList.add("abierto");$("#velo").classList.add("on");
+});
+$("#btn-pagar").addEventListener("click",()=>{
+  if(!Object.keys(carro).length){toast("El carrito está vacío");return}
+  if(!usuario){cerrarPanel();abrirModal("modal-cuenta");toast("Accede para completar tu pedido");return}
+  carro={};guardar("ng_carro",carro);pintarCarro();cerrarPanel();
+  toast("Pedido registrado. Te avisaremos para la recogida.");
+});
+function cerrarPanel(){$("#panel-carro").classList.remove("abierto");$("#velo").classList.remove("on")}
+$("#velo").addEventListener("click",cerrarPanel);
+
+/* ================= cuenta de socio ================= */
+function pintarPerfil(){
+  if(usuario){
+    $("#vista-login").style.display="none";$("#vista-perfil").style.display="block";
+    $("#perfil-hola").textContent=`Hola, ${usuario.nombre}`;
+    $("#perfil-num").textContent=usuario.num;
+    $("#btn-cuenta").textContent=usuario.nombre.split(" ")[0];
+    $("#mis-reservas").innerHTML=reservas.length
+      ? reservas.map(r=>`<div class="clase"><span class="clase-hora">${r.h}</span><span><span class="clase-nombre">${r.n}</span><br><span class="clase-info">${r.dia}</span></span><span></span></div>`).join("")
+      : `<p style="color:var(--texto2);font-size:.9rem">Aún no tienes reservas. Elige tu clase en el horario.</p>`;
+  }else{
+    $("#vista-login").style.display="block";$("#vista-perfil").style.display="none";
+    $("#btn-cuenta").textContent="Acceder";
+  }
+}
+pintarPerfil();
+$("#btn-cuenta").addEventListener("click",()=>{pintarPerfil();abrirModal("modal-cuenta")});
+$("#form-login").addEventListener("submit",e=>{
+  e.preventDefault();
+  usuario={nombre:$("#log-nombre").value.trim(),email:$("#log-email").value.trim(),
+           num:"F-"+String(Math.floor(Math.random()*900)+100)};
+  guardar("ng_usuario",usuario);
+  pintarPerfil();pintarClases();cerrarModales();
+  toast(`Bienvenido, ${usuario.nombre.split(" ")[0]}`);
+});
+$("#btn-salir").addEventListener("click",()=>{
+  usuario=null;localStorage.removeItem("ng_usuario");
+  pintarPerfil();cerrarModales();toast("Sesión cerrada");
+});
+
+/* ================= modales ================= */
+function abrirModal(id){$("#"+id).classList.add("on");document.body.style.overflow="hidden"}
+function cerrarModales(){
+  document.querySelectorAll(".modal").forEach(m=>m.classList.remove("on"));
+  document.body.style.overflow="";
+}
+document.querySelectorAll("[data-cerrar]").forEach(b=>b.addEventListener("click",()=>{cerrarModales();cerrarPanel()}));
+addEventListener("keydown",e=>{if(e.key==="Escape"){cerrarModales();cerrarPanel();cerrarLegales()}});
+
+/* ================= cookies y páginas legales ================= */
+const cajaCk=$("#cookies");
+function activarVideoRemoto(){
+  if(!vid||vid.dataset.remotoOk)return;
+  let hay=false;
+  vid.querySelectorAll("source[data-src]").forEach(s=>{s.src=s.dataset.src;hay=true});
+  if(hay){vid.dataset.remotoOk="1";vid.load();if(movOk)vid.play().catch(()=>{})}
+}
+const eleccionCk=leer("ng_cookies",null);
+if(eleccionCk==="todas")activarVideoRemoto();
+if(!eleccionCk)setTimeout(()=>cajaCk.classList.add("on"),900);
+$("#ck-aceptar").addEventListener("click",()=>{
+  guardar("ng_cookies","todas");cajaCk.classList.remove("on");
+  activarVideoRemoto();toast("Cookies aceptadas");
+});
+$("#ck-necesarias").addEventListener("click",()=>{
+  guardar("ng_cookies","necesarias");cajaCk.classList.remove("on");
+  toast("Solo cookies necesarias");
+});
+document.querySelectorAll("[data-abrir-cookies]").forEach(b=>b.addEventListener("click",e=>{
+  e.preventDefault();cajaCk.classList.add("on");
+}));
+function cerrarLegales(){
+  document.querySelectorAll(".legal").forEach(l=>l.classList.remove("on"));
+  document.body.style.overflow="";
+  if(!leer("ng_cookies",null))cajaCk.classList.add("on");
+}
+document.querySelectorAll("[data-legal]").forEach(b=>b.addEventListener("click",e=>{
+  e.preventDefault();
+  document.querySelectorAll(".legal").forEach(l=>l.classList.remove("on"));
+  cajaCk.classList.remove("on");
+  const p=document.getElementById("legal-"+b.getAttribute("data-legal"));
+  if(p){p.classList.add("on");p.scrollTop=0;document.body.style.overflow="hidden"}
+}));
+document.querySelectorAll("[data-cerrar-legal]").forEach(b=>b.addEventListener("click",cerrarLegales));
+
+/* ================= newsletter ================= */
+$("#form-news").addEventListener("submit",e=>{
+  e.preventDefault();
+  e.target.reset();
+  toast("¡Apuntado! Te avisaremos de la apertura.");
+});
+</script>
+</body>
+</html>
