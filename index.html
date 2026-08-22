@@ -107,10 +107,12 @@ section{padding:110px 0;position:relative}
   letter-spacing:.12em;text-transform:uppercase;
   padding:15px 30px;border:none;cursor:pointer;text-decoration:none;
   clip-path:polygon(10px 0,100% 0,100% calc(100% - 10px),calc(100% - 10px) 100%,0 100%,0 10px);
-  transition:transform .25s cubic-bezier(.2,.7,.2,1),filter .25s,letter-spacing .25s;
+  transition:transform .25s cubic-bezier(.2,.7,.2,1),filter .25s;
   position:relative;overflow:hidden;
 }
-.btn:hover{transform:translateY(-3px) scale(1.03);filter:brightness(1.15) drop-shadow(0 0 14px rgba(107,224,255,.6));letter-spacing:.16em}
+/* solo efectos que no desplazan el botón: si cambiara de sitio o de ancho
+   bajo el cursor, el hover entraría en bucle y parpadearía */
+.btn:hover{transform:scale(1.03);filter:brightness(1.15) drop-shadow(0 0 14px rgba(107,224,255,.6))}
 .btn:active{transform:translateY(0) scale(.98)}
 .btn::after{
   content:"";position:absolute;top:-10%;bottom:-10%;left:-80%;width:45%;
