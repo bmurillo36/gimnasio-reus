@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>Guía: subir la web NitroGym a WordPress</title>
+<style>
+@page{size:A4;margin:18mm 16mm}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',Arial,sans-serif;color:#1c2430;font-size:11.5pt;line-height:1.55}
+h1{font-size:22pt;color:#0f1b2d;border-bottom:4px solid #2e6bff;padding-bottom:8px;margin-bottom:4px}
+.sub{color:#5a6b80;margin-bottom:22px;font-size:10.5pt}
+h2{font-size:14pt;color:#2e6bff;margin:22px 0 8px}
+h3{font-size:11.5pt;margin:14px 0 4px}
+p,li{margin-bottom:6px}
+ol,ul{margin:6px 0 10px 22px}
+.paso{background:#f2f6ff;border-left:4px solid #2e6bff;padding:10px 14px;margin:10px 0}
+.paso b{color:#0f1b2d}
+.aviso{background:#fff7e6;border-left:4px solid #f5a623;padding:10px 14px;margin:10px 0}
+.ruta{font-family:Consolas,monospace;background:#e8ecf3;padding:1px 6px;border-radius:4px;font-size:10pt}
+table{border-collapse:collapse;width:100%;margin:10px 0;font-size:10.5pt}
+th,td{border:1px solid #c9d4e2;padding:7px 10px;text-align:left;vertical-align:top}
+th{background:#eef3fb}
+.pie{margin-top:26px;padding-top:10px;border-top:1px solid #c9d4e2;color:#5a6b80;font-size:9.5pt}
+</style>
+</head>
+<body>
+
+<h1>Subir la web de NitroGym a WordPress</h1>
+<p class="sub">Guía paso a paso · Tema «NitroGym Reus» (fichero <b>nitrogym.zip</b>) · Agosto 2026</p>
+
+<h2>1 · Qué necesitas antes de empezar</h2>
+<ul>
+  <li>Un hosting con <b>WordPress ya instalado</b> (versión 6.0 o superior, PHP 7.4 o superior). Casi todos los hostings (IONOS, SiteGround, Webempresa…) instalan WordPress con un clic.</li>
+  <li>El usuario y la contraseña de <b>administrador</b> de ese WordPress.</li>
+  <li>El fichero <b>nitrogym.zip</b> (está en tu ordenador, en <span class="ruta">Escritorio\claude\nitrogym-web\wordpress\nitrogym.zip</span>).</li>
+</ul>
+
+<h2>2 · Instalar el tema (5 minutos)</h2>
+<div class="paso"><b>Paso 1.</b> Entra en el panel de tu WordPress: escribe en el navegador <span class="ruta">tudominio.com/wp-admin</span> y pon tu usuario y contraseña.</div>
+<div class="paso"><b>Paso 2.</b> En el menú de la izquierda ve a <b>Apariencia → Temas</b>.</div>
+<div class="paso"><b>Paso 3.</b> Pulsa el botón <b>«Añadir nuevo tema»</b> (arriba) y después <b>«Subir tema»</b>.</div>
+<div class="paso"><b>Paso 4.</b> Pulsa <b>«Seleccionar archivo»</b>, elige <b>nitrogym.zip</b> y pulsa <b>«Instalar ahora»</b>.</div>
+<div class="paso"><b>Paso 5.</b> Cuando termine, pulsa <b>«Activar»</b>. Abre tu dominio en otra pestaña: la web de NitroGym ya está en marcha, con su vídeo, la cuenta atrás, las clases, la tienda y las tarifas.</div>
+<div class="aviso">No hay que configurar nada más: el tema trae todo incorporado (vídeo incluido) y la portada se muestra automáticamente.</div>
+
+<h2>3 · Tu zona de administrador: los productos de la tienda</h2>
+<p>Con el tema activado, en el menú de la izquierda del panel aparece un apartado nuevo: <b>Productos</b> (icono de carrito). Desde ahí controlas la tienda de la web sin tocar código:</p>
+
+<h3>Añadir un producto</h3>
+<ol>
+  <li>Ve a <b>Productos → Añadir producto</b>.</li>
+  <li><b>Título:</b> el nombre del producto (p. ej. «Proteína Whey Nitro 2 kg»).</li>
+  <li><b>Cuadro principal:</b> el texto descriptivo que verá el cliente.</li>
+  <li>En la columna derecha, caja <b>«Datos del producto»</b>:
+    <ul>
+      <li><b>Precio (€):</b> por ejemplo <span class="ruta">24,90</span> — obligatorio; sin precio el producto no sale en la web.</li>
+      <li><b>Precio anterior:</b> solo si está de oferta (saldrá tachado).</li>
+      <li><b>Categoría:</b> Suplementación, Equipación o Accesorios (o la que tú escribas: los filtros de la tienda se crean solos).</li>
+      <li><b>Etiqueta destacada:</b> opcional («Oferta», «Nuevo», «Top ventas»…).</li>
+    </ul>
+  </li>
+  <li><b>Imagen destacada</b> (columna derecha, abajo): pulsa «Establecer imagen destacada» y sube la fotografía del producto.</li>
+  <li>Pulsa <b>«Publicar»</b>. Recarga tu web: el producto ya está en la tienda.</li>
+</ol>
+
+<h3>Editar o borrar</h3>
+<ul>
+  <li><b>Editar:</b> Productos → pasa el ratón por el nombre → «Editar». Cambia precio, foto o texto y pulsa «Actualizar».</li>
+  <li><b>Borrar:</b> igual, pero pulsando «Enviar a la papelera».</li>
+  <li><b>Ordenar:</b> en la caja «Atributos» de cada producto, el campo «Orden» decide la posición (0 primero, 1 después…).</li>
+</ul>
+
+<div class="aviso"><b>Importante:</b> mientras no crees ningún producto, la web enseña un <b>catálogo de ejemplo con precios inventados</b>. En cuanto publiques tu primer producto real, el catálogo de ejemplo desaparece y solo se ven los tuyos.</div>
+
+<h2>4 · Lo que esta versión hace y no hace</h2>
+<table>
+  <tr><th>Funciona</th><th>Es una simulación (de momento)</th></tr>
+  <tr>
+    <td>Vídeo del hero, cuenta atrás hasta el 01/10/2026, animaciones, clases con reserva, tienda con carrito, tarifas, mapa, redes, banner y textos legales.</td>
+    <td>El «pago» del carrito, las reservas y la cuenta de socio se guardan solo en el navegador del visitante (no se cobra nada ni llega aviso). El formulario «Avisadme» tampoco envía correos aún.</td>
+  </tr>
+</table>
+<p>Cuando quieras cobrar de verdad o recibir los correos de la newsletter, pídemelo y lo conectamos (WooCommerce para pagos o un servicio de correo para los avisos).</p>
+
+<h2>5 · Si algo no se ve bien</h2>
+<ul>
+  <li>Si al activar ves una página en blanco: comprueba en tu hosting que la versión de PHP es 7.4 o superior (en el panel del hosting, apartado PHP).</li>
+  <li>Si el vídeo no se reproduce: es normal en modo «Solo necesarias» de cookies hasta que el visitante acepta; el vídeo local del tema sí funciona siempre.</li>
+  <li>Ante cualquier duda, guarda una captura de pantalla del error y me la enseñas.</li>
+</ul>
+
+<p class="pie">NitroGym Reus · Nitro Fitness Grup, S.L. · Tema WordPress «NitroGym Reus» v1.0.0 · Guía generada el 22/08/2026</p>
+
+</body>
+</html>
